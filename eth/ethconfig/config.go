@@ -30,13 +30,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/core/txpool/blobpool"
-	"github.com/ava-labs/subnet-evm/core/txpool/legacypool"
-	"github.com/ava-labs/subnet-evm/eth/gasprice"
-	"github.com/ava-labs/subnet-evm/miner"
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/core/txpool/blobpool"
+	"github.com/ryt-io/subnet-evm/core/txpool/legacypool"
+	"github.com/ryt-io/subnet-evm/eth/gasprice"
+	"github.com/ryt-io/subnet-evm/miner"
+	"github.com/ryt-io/subnet-evm/params"
 )
 
 // DefaultFullGPOConfig contains default gasprice oracle settings for full node.

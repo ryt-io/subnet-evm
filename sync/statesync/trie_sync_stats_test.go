@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/metrics"
+	"github.com/ryt-io/libevm/metrics"
 	"github.com/stretchr/testify/require"
 )
 

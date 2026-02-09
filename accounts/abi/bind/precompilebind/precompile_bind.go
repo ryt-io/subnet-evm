@@ -37,9 +37,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi"
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
-	"github.com/ava-labs/subnet-evm/precompile/allowlist"
+	"github.com/ryt-io/subnet-evm/accounts/abi"
+	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
+	"github.com/ryt-io/subnet-evm/precompile/allowlist"
 )
 
 var errNoAnonymousEvent = errors.New("event type must not be anonymous")

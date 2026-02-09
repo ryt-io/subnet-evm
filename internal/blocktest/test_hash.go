@@ -36,7 +36,7 @@ package blocktest
 import (
 	"hash"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -11,11 +11,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/log"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/ava-labs/subnet-evm/rpc"
+	"github.com/ryt-io/subnet-evm/rpc"
 )
 
 type Metrics struct {

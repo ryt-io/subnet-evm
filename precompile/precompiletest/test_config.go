@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/subnet-evm/commontype"
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
+	"github.com/ryt-io/subnet-evm/commontype"
+	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"
 )
 
 // ConfigVerifyTest is a test case for verifying a config

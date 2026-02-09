@@ -9,14 +9,14 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/triedb"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/triedb"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ava-labs/subnet-evm/core/state/snapshot"
+	"github.com/ryt-io/subnet-evm/core/state/snapshot"
 
-	syncclient "github.com/ava-labs/subnet-evm/sync/client"
+	syncclient "github.com/ryt-io/subnet-evm/sync/client"
 )
 
 const (

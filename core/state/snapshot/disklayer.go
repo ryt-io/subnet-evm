@@ -32,13 +32,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/rlp"
-	"github.com/ava-labs/libevm/triedb"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/rlp"
+	"github.com/ryt-io/libevm/triedb"
+	"github.com/ryt-io/subnet-evm/utils"
 )
 
 // diskLayer is a low level persistent snapshot built on top of a key-value store.

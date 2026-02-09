@@ -7,10 +7,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/version"
 
-	"github.com/ava-labs/subnet-evm/network"
+	"github.com/ryt-io/subnet-evm/network"
 )
 
 var _ network.SyncedNetworkClient = (*mockNetwork)(nil)

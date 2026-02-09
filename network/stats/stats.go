@@ -6,7 +6,7 @@ package stats
 import (
 	"time"
 
-	"github.com/ava-labs/libevm/metrics"
+	"github.com/ryt-io/libevm/metrics"
 )
 
 // RequestHandlerStats provides the interface for metrics for app requests.

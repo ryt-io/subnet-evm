@@ -35,13 +35,13 @@ import (
 	"strings"
 	"sync"
 
-	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/event"
-	"github.com/ava-labs/subnet-evm/accounts/abi"
-	"github.com/ava-labs/subnet-evm/rpc"
+	ethereum "github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/event"
+	"github.com/ryt-io/subnet-evm/accounts/abi"
+	"github.com/ryt-io/subnet-evm/rpc"
 )
 
 const basefeeWiggleMultiplier = 2

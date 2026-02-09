@@ -6,10 +6,10 @@ package customtypes
 import (
 	"io"
 
-	"github.com/ava-labs/libevm/libevm"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/libevm/libevm"
+	"github.com/ryt-io/libevm/rlp"
 
-	ethtypes "github.com/ava-labs/libevm/core/types"
+	ethtypes "github.com/ryt-io/libevm/core/types"
 )
 
 var extras ethtypes.ExtraPayloads[*HeaderExtra, *ethtypes.NOOPBlockBodyHooks, noopStateAccountExtras]

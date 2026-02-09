@@ -17,7 +17,7 @@ VERSION="${1:-}"
 
 if [[ -n "${VERSION}" ]]; then
   echo "Ensuring AvalancheGo version $VERSION in go.mod"
-  go get "github.com/ava-labs/avalanchego@${VERSION}"
+  go get "github.com/ryt-io/ryt-v2@${VERSION}"
   go mod tidy
 fi
 

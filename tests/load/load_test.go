@@ -11,15 +11,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/tests/fixture/e2e"
+	"github.com/ryt-io/ryt-v2/tests/fixture/tmpnet"
+	"github.com/ryt-io/ryt-v2/utils/set"
+	"github.com/ryt-io/libevm/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/tests"
-	"github.com/ava-labs/subnet-evm/tests/utils"
+	"github.com/ryt-io/subnet-evm/tests"
+	"github.com/ryt-io/subnet-evm/tests/utils"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

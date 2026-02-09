@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/ryt-io/ryt-v2/version"
 	"github.com/stretchr/testify/require"
 )
 

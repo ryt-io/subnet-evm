@@ -3,7 +3,7 @@
 
 package precompilebind
 
-import "github.com/ava-labs/subnet-evm/accounts/abi/bind"
+import "github.com/ryt-io/subnet-evm/accounts/abi/bind"
 
 // tmplPrecompileData is the data structure required to fill the binding template.
 type tmplPrecompileData struct {
@@ -33,17 +33,17 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi"
+	"github.com/ryt-io/subnet-evm/accounts/abi"
 	{{- if .Contract.AllowList}}
-	"github.com/ava-labs/subnet-evm/precompile/allowlist"
+	"github.com/ryt-io/subnet-evm/precompile/allowlist"
 	{{- end}}
-	"github.com/ava-labs/subnet-evm/precompile/contract"
+	"github.com/ryt-io/subnet-evm/precompile/contract"
 
 	_ "embed"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/core/vm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
 )
 {{$contract := .Contract}}
 const (

@@ -10,7 +10,7 @@ Avalanche Warp Messaging uses BLS Multi-Signatures with Public-Key Aggregation w
 
 Every node tracking an Avalanche L1 has read access to the Avalanche P-Chain. This provides weighted sets of BLS Public Keys that correspond to the validator sets of each L1 on the Avalanche Network. Avalanche Warp Messaging provides a basic primitive for signing and verifying messages between L1s: the receiving network can verify whether an aggregation of signatures from a set of source L1 validators represents a threshold of stake large enough for the receiving network to process the message.
 
-For more details on Avalanche Warp Messaging, see the AvalancheGo [Warp README](https://github.com/ava-labs/avalanchego/blob/master/vms/platformvm/warp/README.md).
+For more details on Avalanche Warp Messaging, see the AvalancheGo [Warp README](https://github.com/ryt-io/ryt-v2/blob/master/vms/platformvm/warp/README.md).
 
 ### Flow of Sending / Receiving a Warp Message within the EVM
 
@@ -44,7 +44,7 @@ Additionally, the `SourceChainID` is excluded because anyone parsing the chain c
 - `sender`
 - The `messageID` of the unsigned message (sha256 of the unsigned message)
 
-The actual `message` is the entire [Avalanche Warp Unsigned Message](https://github.com/ava-labs/avalanchego/blob/master/vms/platformvm/warp/unsigned_message.go#L14) including an [AddressedCall](https://github.com/ava-labs/avalanchego/tree/master/vms/platformvm/warp/payload#addressedcall). The unsigned message is emitted as the unindexed data in the log.
+The actual `message` is the entire [Avalanche Warp Unsigned Message](https://github.com/ryt-io/ryt-v2/blob/master/vms/platformvm/warp/unsigned_message.go#L14) including an [AddressedCall](https://github.com/ryt-io/ryt-v2/tree/master/vms/platformvm/warp/payload#addressedcall). The unsigned message is emitted as the unindexed data in the log.
 
 #### getVerifiedMessage
 
@@ -71,11 +71,11 @@ The `sourceChainID` in Avalanche refers to the txID that created the blockchain 
 
 ### Predicate Encoding
 
-Avalanche Warp Messages are encoded as a signed Avalanche [Warp Message](https://github.com/ava-labs/avalanchego/blob/master/vms/platformvm/warp/message.go) where the [UnsignedMessage](https://github.com/ava-labs/avalanchego/blob/master/vms/platformvm/warp/unsigned_message.go)'s payload includes an [AddressedPayload](https://github.com/ava-labs/avalanchego/blob/master/vms/platformvm/warp/payload/payload.go).
+Avalanche Warp Messages are encoded as a signed Avalanche [Warp Message](https://github.com/ryt-io/ryt-v2/blob/master/vms/platformvm/warp/message.go) where the [UnsignedMessage](https://github.com/ryt-io/ryt-v2/blob/master/vms/platformvm/warp/unsigned_message.go)'s payload includes an [AddressedPayload](https://github.com/ryt-io/ryt-v2/blob/master/vms/platformvm/warp/payload/payload.go).
 
 Since the predicate is encoded into the [Transaction Access List](https://eips.ethereum.org/EIPS/eip-2930), it is packed into 32 byte hashes intended to declare storage slots that should be pre-warmed into the cache prior to transaction execution.
 
-Therefore, we use the [`predicate`](https://github.com/ava-labs/avalanchego/tree/master/vms/evm/predicate) package to encode the actual byte slice of size N into the access list.
+Therefore, we use the [`predicate`](https://github.com/ryt-io/ryt-v2/tree/master/vms/evm/predicate) package to encode the actual byte slice of size N into the access list.
 
 ### Performance Optimization: Primary Network to Avalanche L1
 

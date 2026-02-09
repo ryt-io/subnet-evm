@@ -30,12 +30,12 @@ package backends
 import (
 	"context"
 
-	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
-	"github.com/ava-labs/subnet-evm/ethclient/simulated"
-	"github.com/ava-labs/subnet-evm/interfaces"
+	ethereum "github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
+	"github.com/ryt-io/subnet-evm/ethclient/simulated"
+	"github.com/ryt-io/subnet-evm/interfaces"
 )
 
 // Verify that SimulatedBackend implements required interfaces
@@ -57,7 +57,7 @@ var (
 )
 
 // SimulatedBackend is a simulated blockchain.
-// Deprecated: use package github.com/ava-labs/subnet-evm/ethclient/simulated instead.
+// Deprecated: use package github.com/ryt-io/subnet-evm/ethclient/simulated instead.
 type SimulatedBackend struct {
 	*simulated.Backend
 	simulated.Client
@@ -74,7 +74,7 @@ func (b *SimulatedBackend) Fork(ctx context.Context, parentHash common.Hash) err
 // A simulated backend always uses chainID 1337.
 //
 // Deprecated: please use simulated.Backend from package
-// github.com/ava-labs/subnet-evm/ethclient/simulated instead.
+// github.com/ryt-io/subnet-evm/ethclient/simulated instead.
 func NewSimulatedBackend(alloc types.GenesisAlloc, gasLimit uint64) *SimulatedBackend {
 	b := simulated.NewBackend(alloc, simulated.WithBlockGasLimit(gasLimit))
 	return &SimulatedBackend{

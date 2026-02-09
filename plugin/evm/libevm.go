@@ -4,11 +4,11 @@
 package evm
 
 import (
-	"github.com/ava-labs/libevm/libevm"
+	"github.com/ryt-io/libevm/libevm"
 
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customtypes"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"
 )
 
 // RegisterAllLibEVMExtras is a convenience wrapper for calling

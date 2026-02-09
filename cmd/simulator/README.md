@@ -7,7 +7,7 @@ When building developing your own blockchain using `subnet-evm`, you may want to
 To build the load simulator, navigate to the base of the simulator directory:
 
 ```bash
-cd $GOPATH/src/github.com/ava-labs/subnet-evm/cmd/simulator
+cd $GOPATH/src/github.com/ryt-io/subnet-evm/cmd/simulator
 ```
 
 Build the simulator:
@@ -30,7 +30,7 @@ v0.1.0
 
 To run the load simulator, you must first start an EVM based network. The load simulator works on both the C-Chain and Subnet-EVM, so we will start a single node network and run the load simulator on a Subnet-EVM blockchain.
 
-To start a single node network, follow the instructions from the AvalancheGo [README](https://github.com/ava-labs/avalanchego#building-avalanchego) to build from source.
+To start a single node network, follow the instructions from the AvalancheGo [README](https://github.com/ryt-io/ryt-v2#building-avalanchego) to build from source.
 
 Once you've built AvalancheGo, open the AvalancheGo directory in a separate terminal window and run a single node non-staking network with the following command:
 

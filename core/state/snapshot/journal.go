@@ -33,13 +33,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/rlp"
-	"github.com/ava-labs/libevm/triedb"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customrawdb"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/rlp"
+	"github.com/ryt-io/libevm/triedb"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customrawdb"
 )
 
 // journalGenerator is a disk layer entry containing the generator progress marker.

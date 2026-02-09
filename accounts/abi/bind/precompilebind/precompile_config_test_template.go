@@ -15,13 +15,13 @@ package {{.Package}}
 import (
 	"testing"
 
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
-	"github.com/ava-labs/subnet-evm/precompile/precompiletest"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"
+	"github.com/ryt-io/subnet-evm/precompile/precompiletest"
+	"github.com/ryt-io/subnet-evm/utils"
 	{{- if .Contract.AllowList}}
-	"github.com/ava-labs/subnet-evm/precompile/allowlist/allowlisttest"
+	"github.com/ryt-io/subnet-evm/precompile/allowlist/allowlisttest"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	{{- end}}
 	"go.uber.org/mock/gomock"
 )

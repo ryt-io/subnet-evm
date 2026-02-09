@@ -4,9 +4,9 @@
 package paramstest
 
 import (
-	"github.com/ava-labs/avalanchego/upgrade/upgradetest"
+	"github.com/ryt-io/ryt-v2/upgrade/upgradetest"
 
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/params"
 )
 
 // ForkToChainConfig maps a fork to a chain config

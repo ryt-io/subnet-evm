@@ -8,12 +8,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/math"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/math"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/utils"
-	"github.com/ava-labs/subnet-evm/utils/utilstest"
+	"github.com/ryt-io/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/utils/utilstest"
 )
 
 func TestVerifyStateUpgrades(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/crypto"
 	"github.com/stretchr/testify/require"
 )
 

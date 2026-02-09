@@ -12,9 +12,9 @@ import (
 
 	"golang.org/x/exp/slog"
 
-	"github.com/ava-labs/subnet-evm/log"
+	"github.com/ryt-io/subnet-evm/log"
 
-	ethlog "github.com/ava-labs/libevm/log"
+	ethlog "github.com/ryt-io/libevm/log"
 )
 
 type Logger struct {

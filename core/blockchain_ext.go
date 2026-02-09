@@ -3,7 +3,7 @@
 
 package core
 
-import "github.com/ava-labs/libevm/metrics"
+import "github.com/ryt-io/libevm/metrics"
 
 // getOrOverrideAsRegisteredCounter searches for a metric already registered
 // with `name`. If a metric is found and it is a [metrics.Counter], it is returned. If a

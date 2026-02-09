@@ -9,13 +9,13 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/ava-labs/avalanchego/vms/evm/acp226"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/vms/evm/acp226"
+	"github.com/ryt-io/libevm/common"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/internal/blocktest"
-	"github.com/ava-labs/subnet-evm/utils"
-	"github.com/ava-labs/subnet-evm/utils/utilstest"
+	"github.com/ryt-io/subnet-evm/internal/blocktest"
+	"github.com/ryt-io/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/utils/utilstest"
 )
 
 func TestBlockGetters(t *testing.T) {

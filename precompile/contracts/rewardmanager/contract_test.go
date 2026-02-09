@@ -6,20 +6,20 @@ package rewardmanager_test
 import (
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/vm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/vm"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/subnet-evm/commontype"
-	"github.com/ava-labs/subnet-evm/constants"
-	"github.com/ava-labs/subnet-evm/core/extstate"
-	"github.com/ava-labs/subnet-evm/precompile/allowlist/allowlisttest"
-	"github.com/ava-labs/subnet-evm/precompile/contracts/rewardmanager"
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
-	"github.com/ava-labs/subnet-evm/precompile/precompiletest"
+	"github.com/ryt-io/subnet-evm/commontype"
+	"github.com/ryt-io/subnet-evm/constants"
+	"github.com/ryt-io/subnet-evm/core/extstate"
+	"github.com/ryt-io/subnet-evm/precompile/allowlist/allowlisttest"
+	"github.com/ryt-io/subnet-evm/precompile/contracts/rewardmanager"
+	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"
+	"github.com/ryt-io/subnet-evm/precompile/precompiletest"
 
-	ethtypes "github.com/ava-labs/libevm/core/types"
+	ethtypes "github.com/ryt-io/libevm/core/types"
 )
 
 var (

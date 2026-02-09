@@ -2,7 +2,7 @@
 
 package customtypes
 
-import "github.com/ava-labs/libevm/rlp"
+import "github.com/ryt-io/libevm/rlp"
 import "io"
 
 func (obj *HeaderSerializable) EncodeRLP(_w io.Writer) error {

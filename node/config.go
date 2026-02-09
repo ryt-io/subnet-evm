@@ -32,10 +32,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/libevm/accounts"
-	"github.com/ava-labs/libevm/accounts/external"
-	"github.com/ava-labs/libevm/accounts/keystore"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/accounts"
+	"github.com/ryt-io/libevm/accounts/external"
+	"github.com/ryt-io/libevm/accounts/keystore"
+	"github.com/ryt-io/libevm/log"
 )
 
 // Config represents a small collection of configuration values to fine tune the

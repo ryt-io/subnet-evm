@@ -28,10 +28,10 @@
 package node
 
 import (
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/subnet-evm/internal/debug"
-	"github.com/ava-labs/subnet-evm/rpc"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/subnet-evm/internal/debug"
+	"github.com/ryt-io/subnet-evm/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.

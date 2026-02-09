@@ -4,11 +4,11 @@
 package extstate
 
 import (
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/triedb"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/triedb"
 
-	"github.com/ava-labs/subnet-evm/triedb/firewood"
+	"github.com/ryt-io/subnet-evm/triedb/firewood"
 )
 
 func NewDatabaseWithConfig(db ethdb.Database, config *triedb.Config) state.Database {

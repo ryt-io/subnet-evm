@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/utils/profiler"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/api"
+	"github.com/ryt-io/ryt-v2/utils/profiler"
+	"github.com/ryt-io/libevm/log"
 
-	"github.com/ava-labs/subnet-evm/plugin/evm/client"
+	"github.com/ryt-io/subnet-evm/plugin/evm/client"
 )
 
 // Admin is the API service for admin API calls

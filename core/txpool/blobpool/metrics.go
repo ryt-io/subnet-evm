@@ -28,10 +28,10 @@
 package blobpool
 
 import (
-	"github.com/ava-labs/libevm/metrics"
+	"github.com/ryt-io/libevm/metrics"
 
 	// Force libevm metrics of the same name to be registered first.
-	_ "github.com/ava-labs/libevm/core/txpool/blobpool"
+	_ "github.com/ryt-io/libevm/core/txpool/blobpool"
 )
 
 // ====== If resolving merge conflicts ======

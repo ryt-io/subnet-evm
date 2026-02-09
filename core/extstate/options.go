@@ -4,9 +4,9 @@
 package extstate
 
 import (
-	"github.com/ava-labs/libevm/core/state"
+	"github.com/ryt-io/libevm/core/state"
 
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/utils"
 )
 
 type workerPool struct {

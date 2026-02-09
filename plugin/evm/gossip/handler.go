@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/network/p2p/gossip"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/network/p2p"
+	"github.com/ryt-io/ryt-v2/network/p2p/gossip"
+	"github.com/ryt-io/ryt-v2/snow/engine/common"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

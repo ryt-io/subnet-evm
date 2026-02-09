@@ -32,7 +32,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

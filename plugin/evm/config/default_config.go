@@ -6,8 +6,8 @@ package config
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/database/pebbledb"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/database/pebbledb"
+	"github.com/ryt-io/libevm/common"
 )
 
 const defaultCommitInterval = 4096

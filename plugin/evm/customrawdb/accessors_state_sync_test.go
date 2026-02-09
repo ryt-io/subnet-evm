@@ -7,10 +7,10 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"github.com/stretchr/testify/require"
 
-	ethrawdb "github.com/ava-labs/libevm/core/rawdb"
+	ethrawdb "github.com/ryt-io/libevm/core/rawdb"
 )
 
 func TestClearPrefix(t *testing.T) {

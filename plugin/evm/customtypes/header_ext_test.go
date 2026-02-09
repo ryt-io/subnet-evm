@@ -13,12 +13,12 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/ava-labs/avalanchego/vms/evm/acp226"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/vms/evm/acp226"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/rlp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/utils/utilstest"
+	"github.com/ryt-io/subnet-evm/utils/utilstest"
 )
 
 func TestMain(m *testing.M) {

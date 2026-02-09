@@ -6,10 +6,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/ryt-io/ryt-v2/version"
 
-	"github.com/ava-labs/subnet-evm/plugin/evm"
-	"github.com/ava-labs/subnet-evm/plugin/runner"
+	"github.com/ryt-io/subnet-evm/plugin/evm"
+	"github.com/ryt-io/subnet-evm/plugin/runner"
 )
 
 func main() {

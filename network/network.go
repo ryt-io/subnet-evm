@@ -10,21 +10,21 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/codec"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/network/p2p"
+	"github.com/ryt-io/ryt-v2/snow"
+	"github.com/ryt-io/ryt-v2/snow/engine/common"
+	"github.com/ryt-io/ryt-v2/snow/validators"
+	"github.com/ryt-io/ryt-v2/utils"
+	"github.com/ryt-io/ryt-v2/utils/set"
+	"github.com/ryt-io/ryt-v2/version"
+	"github.com/ryt-io/libevm/log"
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/ava-labs/subnet-evm/network/stats"
-	"github.com/ava-labs/subnet-evm/plugin/evm/message"
+	"github.com/ryt-io/subnet-evm/network/stats"
+	"github.com/ryt-io/subnet-evm/plugin/evm/message"
 )
 
 // Minimum amount of time to handle a request
@@ -523,7 +523,7 @@ func (n *network) nextRequestID() uint32 {
 
 // IsNetworkRequest checks if the given requestID is a request for this network handler (even-numbered requestIDs)
 // SDK requests are odd-numbered requestIDs
-// (see invariant: https://github.com/ava-labs/avalanchego/blob/v1.13.0/network/p2p/router.go#L83)
+// (see invariant: https://github.com/ryt-io/ryt-v2/blob/v1.13.0/network/p2p/router.go#L83)
 func IsNetworkRequest(requestID uint32) bool {
 	return requestID%2 == 0
 }

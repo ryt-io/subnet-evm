@@ -6,13 +6,13 @@ package warp
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/math"
-	"github.com/ava-labs/libevm/core/vm"
+	"github.com/ryt-io/ryt-v2/vms/platformvm/warp"
+	"github.com/ryt-io/ryt-v2/vms/platformvm/warp/payload"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/core/vm"
 
-	"github.com/ava-labs/subnet-evm/precompile/contract"
+	"github.com/ryt-io/subnet-evm/precompile/contract"
 )
 
 var (

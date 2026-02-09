@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/core/vm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
 
 	_ "embed"
 
-	"github.com/ava-labs/subnet-evm/precompile/contract"
+	"github.com/ryt-io/subnet-evm/precompile/contract"
 )
 
 // AllowList is an abstraction that allows other precompiles to manage

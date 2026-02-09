@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"github.com/stretchr/testify/require"
 )
 

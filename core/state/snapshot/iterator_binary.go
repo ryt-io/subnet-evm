@@ -30,7 +30,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

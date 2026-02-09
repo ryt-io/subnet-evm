@@ -31,9 +31,9 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/rpc"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/rpc"
 	lru "github.com/hashicorp/golang-lru"
 )
 

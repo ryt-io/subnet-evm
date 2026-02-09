@@ -29,7 +29,7 @@
 package tracers
 
 import (
-	ethtracers "github.com/ava-labs/libevm/eth/tracers"
+	ethtracers "github.com/ryt-io/libevm/eth/tracers"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

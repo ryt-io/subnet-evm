@@ -32,8 +32,8 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	ethparams "github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/libevm/common"
+	ethparams "github.com/ryt-io/libevm/params"
 	"github.com/holiman/uint256"
 )
 

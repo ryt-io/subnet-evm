@@ -8,10 +8,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ava-labs/libevm/core/vm"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/crypto"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi"
+	"github.com/ryt-io/subnet-evm/accounts/abi"
 )
 
 // Gas costs for stateful precompiles

@@ -3,7 +3,7 @@
 
 package constants
 
-import "github.com/ava-labs/libevm/common"
+import "github.com/ryt-io/libevm/common"
 
 var BlackholeAddr = common.Address{
 	1, 0, 0, 0, 0, 0, 0, 0, 0, 0,

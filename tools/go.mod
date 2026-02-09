@@ -1,4 +1,4 @@
-module github.com/ava-labs/coreth/tools
+module github.com/ryt-io/coreth/tools
 
 go 1.24.7
 

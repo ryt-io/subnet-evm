@@ -36,10 +36,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
+	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
 )
 
 var bindTests = []struct {
@@ -209,7 +209,7 @@ var bindTests = []struct {
 		`
 					"math/big"
 		 			"github.com/stretchr/testify/require"
-					"github.com/ava-labs/libevm/common"
+					"github.com/ryt-io/libevm/common"
 		`,
 		`
 			testArgs := []common.Address{common.HexToAddress("1"), common.HexToAddress("2"), common.HexToAddress("3")}
@@ -453,11 +453,11 @@ var bindTests = []struct {
 		`[{"inputs":[{"internalType":"address","name":"addr","type":"address"}],"name":"readAllowList","outputs":[{"internalType":"uint256","name":"role","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"sayHello","outputs":[{"internalType":"string","name":"result","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"addr","type":"address"}],"name":"setAdmin","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"addr","type":"address"}],"name":"setManager","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"addr","type":"address"}],"name":"setEnabled","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"string","name":"response","type":"string"}],"name":"setGreeting","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"addr","type":"address"}],"name":"setNone","outputs":[],"stateMutability":"nonpayable","type":"function"}]`,
 		`"github.com/stretchr/testify/require"
 		 "math/big"
-		 "github.com/ava-labs/libevm/common"
-		 "github.com/ava-labs/libevm/core/rawdb"
-		 "github.com/ava-labs/libevm/core/state"
-		 "github.com/ava-labs/subnet-evm/core/extstate"
-		 "github.com/ava-labs/subnet-evm/precompile/allowlist"
+		 "github.com/ryt-io/libevm/common"
+		 "github.com/ryt-io/libevm/core/rawdb"
+		 "github.com/ryt-io/libevm/core/state"
+		 "github.com/ryt-io/subnet-evm/core/extstate"
+		 "github.com/ryt-io/subnet-evm/precompile/allowlist"
 		`,
 		`
 			testGreeting := "test"
@@ -522,8 +522,8 @@ var bindTests = []struct {
 		`,
 		`[{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"addressTest","type":"address"},{"indexed":true,"internalType":"uint8","name":"intTest","type":"uint8"},{"indexed":false,"internalType":"bytes","name":"bytesTest","type":"bytes"}],"name":"test","type":"event"},{"inputs":[],"name":"eventTest","outputs":[{"internalType":"string","name":"result","type":"string"}],"stateMutability":"view","type":"function"},{"type":"event","name":"empty","inputs":[]},{"type":"event","name":"indexed","inputs":[{"name":"addr","type":"address","indexed":true},{"name":"num","type":"int8","indexed":true}]},{"type":"event","name":"mixed","inputs":[{"name":"addr","type":"address","indexed":true},{"name":"num","type":"int8"}]},{"type":"event","name":"dynamic","inputs":[{"name":"idxStr","type":"string","indexed":true},{"name":"idxDat","type":"bytes","indexed":true},{"name":"str","type":"string"},{"name":"dat","type":"bytes"}]},{"type":"event","name":"unnamed","inputs":[{"name":"","type":"uint8","indexed":true},{"name":"","type":"uint8","indexed":true}]}]`,
 		`"github.com/stretchr/testify/require"
-		"github.com/ava-labs/libevm/common"
-		"github.com/ava-labs/subnet-evm/precompile/contract"
+		"github.com/ryt-io/libevm/common"
+		"github.com/ryt-io/subnet-evm/precompile/contract"
 		`,
 		`
 			testAddr := common.Address{1}
@@ -684,7 +684,7 @@ func TestPrecompileBind(t *testing.T) {
 	require.NoError(t, err, "failed to convert binding test to modules: %v\n%s", err, out)
 
 	pwd, _ := os.Getwd()
-	replacer := exec.Command(gocmd, "mod", "edit", "-x", "-require", "github.com/ava-labs/subnet-evm@v0.0.0", "-replace", "github.com/ava-labs/subnet-evm="+filepath.Join(pwd, "..", "..", "..", "..")) // Repo root
+	replacer := exec.Command(gocmd, "mod", "edit", "-x", "-require", "github.com/ryt-io/subnet-evm@v0.0.0", "-replace", "github.com/ryt-io/subnet-evm="+filepath.Join(pwd, "..", "..", "..", "..")) // Repo root
 	replacer.Dir = pkg
 	out, err = replacer.CombinedOutput()
 	require.NoError(t, err, "failed to replace binding test dependency to current source tree: %v\n%s", err, out)

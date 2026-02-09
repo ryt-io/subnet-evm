@@ -14,24 +14,24 @@ import (
 
 	"github.com/antithesishq/antithesis-sdk-go/assert"
 	"github.com/antithesishq/antithesis-sdk-go/lifecycle"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/tests/antithesis"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/tests/antithesis"
+	"github.com/ryt-io/ryt-v2/tests/fixture/tmpnet"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
-	"github.com/ava-labs/subnet-evm/ethclient"
-	"github.com/ava-labs/subnet-evm/tests"
-	"github.com/ava-labs/subnet-evm/tests/utils"
+	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
+	"github.com/ryt-io/subnet-evm/ethclient"
+	"github.com/ryt-io/subnet-evm/tests"
+	"github.com/ryt-io/subnet-evm/tests/utils"
 
-	ago_tests "github.com/ava-labs/avalanchego/tests"
-	timerpkg "github.com/ava-labs/avalanchego/utils/timer"
-	ethparams "github.com/ava-labs/libevm/params"
+	ago_tests "github.com/ryt-io/ryt-v2/tests"
+	timerpkg "github.com/ryt-io/ryt-v2/utils/timer"
+	ethparams "github.com/ryt-io/libevm/params"
 )
 
 const NumKeys = 5

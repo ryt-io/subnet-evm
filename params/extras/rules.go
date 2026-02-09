@@ -4,9 +4,9 @@
 package extras
 
 import (
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
+	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"
 )
 
 type Rules struct {

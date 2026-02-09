@@ -15,7 +15,7 @@ run:
   modules-download-mode: readonly
 
   # Include non-test files tagged as test-only.
-  # Context: https://github.com/ava-labs/avalanchego/pull/3173
+  # Context: https://github.com/ryt-io/ryt-v2/pull/3173
   build-tags:
     - test
 
@@ -40,7 +40,7 @@ formatters:
         - standard
         - default
         - blank
-        - prefix(github.com/ava-labs/subnet-evm)
+        - prefix(github.com/ryt-io/subnet-evm)
         - alias
         - dot
       custom-order: true
@@ -90,7 +90,7 @@ linters:
         packages:
           deny:
             - pkg: container/list
-              desc: github.com/ava-labs/avalanchego/utils/linked should be used instead.
+              desc: github.com/ryt-io/ryt-v2/utils/linked should be used instead.
             - pkg: github.com/golang/mock/gomock
               desc: go.uber.org/mock/gomock should be used instead.
             - pkg: github.com/stretchr/testify/assert
@@ -124,9 +124,9 @@ linters:
       no-extra-aliases: false
       # List of aliases
       alias:
-        - pkg: github.com/ava-labs/avalanchego/utils/math
+        - pkg: github.com/ryt-io/ryt-v2/utils/math
           alias: safemath
-        - pkg: github.com/ava-labs/avalanchego/utils/json
+        - pkg: github.com/ryt-io/ryt-v2/utils/json
           alias: avajson
     revive:
       rules:

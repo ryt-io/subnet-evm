@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ava-labs/libevm/metrics"
+	"github.com/ryt-io/libevm/metrics"
 )
 
 // MeteredCache wraps *fastcache.Cache and periodically pulls stats from it.

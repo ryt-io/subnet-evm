@@ -32,8 +32,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/math"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

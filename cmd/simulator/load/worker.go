@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/log"
 
-	"github.com/ava-labs/subnet-evm/ethclient"
+	"github.com/ryt-io/subnet-evm/ethclient"
 )
 
 type ethereumTxWorker struct {

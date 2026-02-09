@@ -32,17 +32,17 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/core/vm"
-	"github.com/ava-labs/libevm/crypto/kzg4844"
-	"github.com/ava-labs/libevm/log"
-	ethparams "github.com/ava-labs/libevm/params"
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/plugin/evm/vmerrors"
-	"github.com/ava-labs/subnet-evm/precompile/contracts/txallowlist"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/crypto/kzg4844"
+	"github.com/ryt-io/libevm/log"
+	ethparams "github.com/ryt-io/libevm/params"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/plugin/evm/vmerrors"
+	"github.com/ryt-io/subnet-evm/precompile/contracts/txallowlist"
 )
 
 var (

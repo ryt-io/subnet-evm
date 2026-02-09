@@ -31,8 +31,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

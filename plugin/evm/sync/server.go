@@ -8,12 +8,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/database"
+	"github.com/ryt-io/ryt-v2/snow/engine/snowman/block"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/log"
 
-	"github.com/ava-labs/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/core"
 )
 
 var errProviderNotSet = errors.New("provider not set")

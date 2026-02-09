@@ -36,7 +36,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/log"
 )
 
 var (

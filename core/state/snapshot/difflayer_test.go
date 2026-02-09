@@ -33,10 +33,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/ethdb/memorydb"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/ethdb/memorydb"
+	"github.com/ryt-io/subnet-evm/utils"
 )
 
 func copyDestructs(destructs map[common.Hash]struct{}) map[common.Hash]struct{} {

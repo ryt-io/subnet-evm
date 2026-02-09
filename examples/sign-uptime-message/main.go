@@ -9,22 +9,22 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/network/peer"
-	"github.com/ava-labs/avalanchego/proto/pb/sdk"
-	"github.com/ava-labs/avalanchego/snow/networking/router"
-	"github.com/ava-labs/avalanchego/utils/compression"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary"
+	"github.com/ryt-io/ryt-v2/api/info"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/network/p2p"
+	"github.com/ryt-io/ryt-v2/network/peer"
+	"github.com/ryt-io/ryt-v2/proto/pb/sdk"
+	"github.com/ryt-io/ryt-v2/snow/networking/router"
+	"github.com/ryt-io/ryt-v2/utils/compression"
+	"github.com/ryt-io/ryt-v2/vms/platformvm/warp"
+	"github.com/ryt-io/ryt-v2/vms/platformvm/warp/payload"
+	"github.com/ryt-io/ryt-v2/wallet/subnet/primary"
 	"github.com/prometheus/client_golang/prometheus"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/ava-labs/subnet-evm/warp/messages"
+	"github.com/ryt-io/subnet-evm/warp/messages"
 
-	p2pmessage "github.com/ava-labs/avalanchego/message"
+	p2pmessage "github.com/ryt-io/ryt-v2/message"
 )
 
 // An example application demonstrating how to request a signature for

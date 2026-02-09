@@ -6,16 +6,16 @@ package evm
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/triedb"
+	"github.com/ryt-io/ryt-v2/codec"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/triedb"
 
-	"github.com/ava-labs/subnet-evm/plugin/evm/message"
+	"github.com/ryt-io/subnet-evm/plugin/evm/message"
 
-	syncHandlers "github.com/ava-labs/subnet-evm/sync/handlers"
-	syncStats "github.com/ava-labs/subnet-evm/sync/handlers/stats"
+	syncHandlers "github.com/ryt-io/subnet-evm/sync/handlers"
+	syncStats "github.com/ryt-io/subnet-evm/sync/handlers/stats"
 )
 
 var _ message.RequestHandler = (*networkHandler)(nil)

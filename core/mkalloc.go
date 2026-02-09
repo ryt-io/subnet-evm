@@ -43,9 +43,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/rlp"
-	"github.com/ava-labs/subnet-evm/core"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/rlp"
+	"github.com/ryt-io/subnet-evm/core"
 	"golang.org/x/exp/slices"
 )
 

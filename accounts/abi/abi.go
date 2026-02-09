@@ -35,8 +35,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 // The ABI holds information about a contract's context and available

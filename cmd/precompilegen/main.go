@@ -36,11 +36,11 @@ import (
 
 	_ "embed"
 
-	"github.com/ava-labs/libevm/cmd/utils"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind/precompilebind"
-	"github.com/ava-labs/subnet-evm/internal/flags"
+	"github.com/ryt-io/libevm/cmd/utils"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
+	"github.com/ryt-io/subnet-evm/accounts/abi/bind/precompilebind"
+	"github.com/ryt-io/subnet-evm/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

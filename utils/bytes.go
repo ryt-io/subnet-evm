@@ -3,7 +3,7 @@
 
 package utils
 
-import "github.com/ava-labs/libevm/common"
+import "github.com/ryt-io/libevm/common"
 
 // IncrOne increments bytes value by one
 func IncrOne(bytes []byte) {

@@ -2,7 +2,7 @@
 
 ## When to release
 
-- When [AvalancheGo](https://github.com/ava-labs/avalanchego/releases) increases its RPC chain VM protocol version, which you can also check in [its `version/compatibility.json`](https://github.com/ava-labs/avalanchego/blob/master/version/compatibility.json)
+- When [AvalancheGo](https://github.com/ryt-io/ryt-v2/releases) increases its RPC chain VM protocol version, which you can also check in [its `version/compatibility.json`](https://github.com/ryt-io/ryt-v2/blob/master/version/compatibility.json)
 - When Subnet-EVM needs to release a new feature or bug fix.
 
 ## Procedure
@@ -30,10 +30,10 @@ Remember to use the appropriate versioning for your release.
 
 1. Update the [RELEASES.md](../../RELEASES.md) file with the new release version `$VERSION`.
 1. Modify the [plugin/evm/version.go](../../plugin/evm/version.go) `Version` global string variable and set it to the desired `$VERSION`.
-1. Ensure the AvalancheGo version used in [go.mod](../../go.mod) is [its last release](https://github.com/ava-labs/avalanchego/releases). If not, upgrade it with, for example:
+1. Ensure the AvalancheGo version used in [go.mod](../../go.mod) is [its last release](https://github.com/ryt-io/ryt-v2/releases). If not, upgrade it with, for example:
 
     ```bash
-      go get github.com/ava-labs/avalanchego@v1.13.0
+      go get github.com/ryt-io/ryt-v2@v1.13.0
       go mod tidy
     ```
 
@@ -48,7 +48,7 @@ Remember to use the appropriate versioning for your release.
     💁 If you are unsure about the RPC chain VM protocol version, set the version to `0`, for example `"v0.7.3": 0`, and then run:
 
     ```bash
-    go test -run ^TestCompatibility$ github.com/ava-labs/subnet-evm/plugin/evm
+    go test -run ^TestCompatibility$ github.com/ryt-io/subnet-evm/plugin/evm
     ```
 
     This will fail with an error similar to:
@@ -57,7 +57,7 @@ Remember to use the appropriate versioning for your release.
     compatibility.json has subnet-evm version v0.7.3 stated as compatible with RPC chain VM protocol version 0 but AvalancheGo protocol version is 39
     ```
 
-    This message can help you figure out what the correct RPC chain VM protocol version (here `39`) has to be in compatibility.json for your current release. Alternatively, you can refer to the [Avalanchego repository `version/compatibility.json` file](https://github.com/ava-labs/avalanchego/blob/master/version/compatibility.json) to find the RPC chain VM protocol version matching the AvalancheGo version we use here.
+    This message can help you figure out what the correct RPC chain VM protocol version (here `39`) has to be in compatibility.json for your current release. Alternatively, you can refer to the [Avalanchego repository `version/compatibility.json` file](https://github.com/ryt-io/ryt-v2/blob/master/version/compatibility.json) to find the RPC chain VM protocol version matching the AvalancheGo version we use here.
 1. Specify the AvalancheGo compatibility in the [README.md relevant section](../../README.md#avalanchego-compatibility). For example we would add:
 
     ```text
@@ -76,7 +76,7 @@ Remember to use the appropriate versioning for your release.
 1. Create a pull request (PR) from your branch targeting master, for example using [`gh`](https://cli.github.com/):
 
     ```bash
-    gh pr create --repo github.com/ava-labs/subnet-evm --base master --title "chore: release $VERSION_RC"
+    gh pr create --repo github.com/ryt-io/subnet-evm --base master --title "chore: release $VERSION_RC"
     ```
 
 1. Wait for the PR checks to pass with
@@ -170,7 +170,7 @@ Once the tag is created, you need to test it on the Fuji testnet both locally an
     rm vm.bin
     ```
 
-1. Clone [AvalancheGo](https://github.com/ava-labs/avalanchego):
+1. Clone [AvalancheGo](https://github.com/ryt-io/ryt-v2):
 
     ```bash
     git clone git@github.com:ava-labs/avalanchego.git
@@ -333,7 +333,7 @@ Following the previous example in the [Release candidate section](#release-candi
     ```
 
 1. Create a new release on Github, either using:
-    - the [Github web interface](https://github.com/ava-labs/subnet-evm/releases/new)
+    - the [Github web interface](https://github.com/ryt-io/subnet-evm/releases/new)
         1. In the "Choose a tag" box, select the tag previously created `$VERSION` (`v0.7.3`)
         2. Pick the previous tag, for example as `v0.7.2`.
         3. Set the "Release title" to `$VERSION` (`v0.7.3`)
@@ -376,12 +376,12 @@ Following the previous example in the [Release candidate section](#release-candi
         gh release create "$VERSION" --notes-start-tag "$PREVIOUS_VERSION" --notes-from-tag "$VERSION" --title "$VERSION" --notes "$NOTES" --verify-tag
         ```
 
-1. Monitor the [release Github workflow](https://github.com/ava-labs/subnet-evm/actions/workflows/release.yml) to ensure the GoReleaser step succeeds and check the binaries are then published to [the releases page](https://github.com/ava-labs/subnet-evm/releases). In case this fails, you can trigger the workflow manually:
-    1. Go to [github.com/ava-labs/subnet-evm/actions/workflows/release.yml](https://github.com/ava-labs/subnet-evm/actions/workflows/release.yml)
+1. Monitor the [release Github workflow](https://github.com/ryt-io/subnet-evm/actions/workflows/release.yml) to ensure the GoReleaser step succeeds and check the binaries are then published to [the releases page](https://github.com/ryt-io/subnet-evm/releases). In case this fails, you can trigger the workflow manually:
+    1. Go to [github.com/ryt-io/subnet-evm/actions/workflows/release.yml](https://github.com/ryt-io/subnet-evm/actions/workflows/release.yml)
     1. Click on the "Run workflow" button
     1. Enter the branch name, usually with goreleaser related fixes
     1. Enter the tag name `$VERSION` (i.e. `v0.7.3`)
-1. Monitor the [Publish Docker image workflow](https://github.com/ava-labs/subnet-evm/actions/workflows/publish_docker.yml) succeeds. Note this workflow is triggered when pushing the tag, unlike Goreleaser which triggers when publishing the release.
+1. Monitor the [Publish Docker image workflow](https://github.com/ryt-io/subnet-evm/actions/workflows/publish_docker.yml) succeeds. Note this workflow is triggered when pushing the tag, unlike Goreleaser which triggers when publishing the release.
 1. Finally, [create a release for precompile-evm](https://github.com/ava-labs/precompile-evm/blob/main/docs/releasing/README.md)
 
 ### Post-release
@@ -412,7 +412,7 @@ export P_VERSION=v0.7.4
     💁 If you are unsure about the RPC chain VM protocol version, set the version to `0`, for example `"v0.7.4": 0`, and then run:
 
     ```bash
-    go test -run ^TestCompatibility$ github.com/ava-labs/subnet-evm/plugin/evm
+    go test -run ^TestCompatibility$ github.com/ryt-io/subnet-evm/plugin/evm
     ```
 
     This will fail with an error similar to:
@@ -421,7 +421,7 @@ export P_VERSION=v0.7.4
     compatibility.json has subnet-evm version v0.7.4 stated as compatible with RPC chain VM protocol version 0 but AvalancheGo protocol version is 39
     ```
 
-    This message can help you figure out what the correct RPC chain VM protocol version (here `39`) has to be in compatibility.json for your current release. Alternatively, you can refer to the [Avalanchego repository `version/compatibility.json` file](https://github.com/ava-labs/avalanchego/blob/master/version/compatibility.json) to find the RPC chain VM protocol version matching the AvalancheGo version we use here.
+    This message can help you figure out what the correct RPC chain VM protocol version (here `39`) has to be in compatibility.json for your current release. Alternatively, you can refer to the [Avalanchego repository `version/compatibility.json` file](https://github.com/ryt-io/ryt-v2/blob/master/version/compatibility.json) to find the RPC chain VM protocol version matching the AvalancheGo version we use here.
 1. Commit your changes and push the branch
 
     ```bash
@@ -433,7 +433,7 @@ export P_VERSION=v0.7.4
 1. Create a pull request (PR) from your branch targeting master, for example using [`gh`](https://cli.github.com/):
 
     ```bash
-    gh pr create --repo github.com/ava-labs/subnet-evm --base master --title "chore: prep next release $P_VERSION"
+    gh pr create --repo github.com/ryt-io/subnet-evm --base master --title "chore: prep next release $P_VERSION"
     ```
 
 1. Wait for the PR checks to pass with

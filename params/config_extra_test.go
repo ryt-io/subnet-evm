@@ -8,11 +8,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/upgrade/upgradetest"
+	"github.com/ryt-io/ryt-v2/upgrade/upgradetest"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/utils"
 )
 
 func TestMain(m *testing.M) {

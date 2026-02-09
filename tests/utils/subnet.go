@@ -13,20 +13,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/api/health"
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/api/health"
+	"github.com/ryt-io/ryt-v2/api/info"
+	"github.com/ryt-io/ryt-v2/genesis"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/vms/secp256k1fx"
+	"github.com/ryt-io/libevm/log"
 	"github.com/go-cmd/cmd"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/plugin/evm"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/plugin/evm"
 
-	wallet "github.com/ava-labs/avalanchego/wallet/subnet/primary"
+	wallet "github.com/ryt-io/ryt-v2/wallet/subnet/primary"
 )
 
 type SubnetSuite struct {

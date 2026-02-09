@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ava-labs/avalanchego/api/health"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/api/health"
+	"github.com/ryt-io/libevm/log"
 	"github.com/go-cmd/cmd"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/require"

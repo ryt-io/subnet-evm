@@ -12,20 +12,20 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/libevm/stateconf"
-	"github.com/ava-labs/libevm/metrics"
-	"github.com/ava-labs/libevm/triedb"
+	"github.com/ryt-io/ryt-v2/database"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/libevm/stateconf"
+	"github.com/ryt-io/libevm/metrics"
+	"github.com/ryt-io/libevm/triedb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/core/extstate"
-	"github.com/ava-labs/subnet-evm/core/state/snapshot"
-	"github.com/ava-labs/subnet-evm/triedb/hashdb"
+	"github.com/ryt-io/subnet-evm/core/extstate"
+	"github.com/ryt-io/subnet-evm/core/state/snapshot"
+	"github.com/ryt-io/subnet-evm/triedb/hashdb"
 )
 
 const (

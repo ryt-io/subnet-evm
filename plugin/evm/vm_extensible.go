@@ -7,17 +7,17 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
+	"github.com/ryt-io/ryt-v2/database/versiondb"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/network/p2p"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/plugin/evm/config"
-	"github.com/ava-labs/subnet-evm/plugin/evm/extension"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/plugin/evm/config"
+	"github.com/ryt-io/subnet-evm/plugin/evm/extension"
 
-	vmsync "github.com/ava-labs/subnet-evm/plugin/evm/sync"
+	vmsync "github.com/ryt-io/subnet-evm/plugin/evm/sync"
 )
 
 var _ extension.InnerVM = (*VM)(nil)
