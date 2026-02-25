@@ -41,8 +41,8 @@ import (
 	"github.com/ava-labs/libevm/core/types"
 	"github.com/ava-labs/libevm/crypto"
 	"github.com/ava-labs/libevm/rlp"
-	"github.com/ava-labs/subnet-evm/accounts/abi"
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
+	"github.com/ryt-io/subnet-evm/accounts/abi"
+	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
 	"github.com/stretchr/testify/assert"
 )
 

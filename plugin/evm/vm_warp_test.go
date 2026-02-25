@@ -37,21 +37,21 @@ import (
 
 	_ "embed"
 
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/eth/tracers"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/params/paramstest"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customheader"
-	"github.com/ava-labs/subnet-evm/plugin/evm/extension"
-	"github.com/ava-labs/subnet-evm/precompile/contract"
-	"github.com/ava-labs/subnet-evm/utils"
-	"github.com/ava-labs/subnet-evm/warp"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/eth/tracers"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/params/paramstest"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customheader"
+	"github.com/ryt-io/subnet-evm/plugin/evm/extension"
+	"github.com/ryt-io/subnet-evm/precompile/contract"
+	"github.com/ryt-io/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/warp"
 
 	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
 	avagoUtils "github.com/ava-labs/avalanchego/utils"
 	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	warpcontract "github.com/ava-labs/subnet-evm/precompile/contracts/warp"
+	warpcontract "github.com/ryt-io/subnet-evm/precompile/contracts/warp"
 )
 
 var (

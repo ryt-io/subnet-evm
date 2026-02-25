@@ -2,12 +2,12 @@
 
 # Release Notes
 
-## [v0.8.1](https://github.com/ava-labs/subnet-evm/releases/tag/v0.8.1)
+## [v0.8.1](https://github.com/ryt-io/subnet-evm/releases/tag/v0.8.1)
 
 - Enables Firewood to run with pruning disabled.
   - This change modifies the filepath of Firewood and any nodes using Firewood will need to resync.
 
-## [v0.8.0](https://github.com/ava-labs/subnet-evm/releases/tag/v0.8.0)
+## [v0.8.0](https://github.com/ryt-io/subnet-evm/releases/tag/v0.8.0)
 
 This version is compatible with the Avalanche Granite upgrade. All mainnet nodes **MUST** update to a Granite compatible version prior to the upgrade activation time: November 19th, 2025 16:00 UTC.
 
@@ -29,7 +29,7 @@ The plugin version is **updated** to 44 and is compatible with AvalancheGo versi
   - Changed default percentile from 60 to 40
   - This impacts `eth_suggestGasPrice` and `eth_suggestGasTipCap` , `eth_suggestPriceOptions`, `eth_maxPriorityFeePerGas`, `eth_gasPrice` APIs
 
-## [v0.7.9](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.9)
+## [v0.7.9](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.9)
 
 This version is backwards compatible to v0.7.0. It is optional, but encouraged.
 
@@ -46,7 +46,7 @@ The plugin version is unchanged at 43 and is compatible with AvalancheGo version
 - Removed deprecated flag `tx-lookup-limit`. Use `transaction-history` instead.
 - Enabled RPC batch limits by default, and configurable with `batch-request-limit` and `batch-max-response-size`.
 
-## [v0.7.8](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.8)
+## [v0.7.8](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.8)
 
 This version is backwards compatible to v0.7.0. It is optional, but encouraged.
 
@@ -59,7 +59,7 @@ The plugin version is **updated** to 43 and is compatible with AvalancheGo versi
 - Enable experimental `state-scheme` flag to specify Firewood as a state database.
 - Added prometheus metrics for Firewood if it is enabled and expensive metrics are being used.
 
-## [v0.7.7](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.7)
+## [v0.7.7](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.7)
 
 This version is backwards compatible to v0.7.0. It is optional, but encouraged.
 
@@ -73,11 +73,11 @@ The plugin version is **updated** to 42 and is compatible with AvalancheGo versi
 - Added maximum number of addresses (1000) to be queried in a single filter
 - Use state-history eth config flag to designate the number of recent states queryable
 
-## [v0.7.6](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.6)
+## [v0.7.6](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.6)
 
 _This release should be skipped entirely in favor of 0.7.7 due to the use of a AvalancheGo release candidate version._
 
-## [v0.7.5](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.5)
+## [v0.7.5](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.5)
 
 This version is backwards compatible to v0.7.0. It is optional, but encouraged.
 
@@ -96,7 +96,7 @@ The plugin version is **updated** to 41 and is compatible with AvalancheGo versi
 - Reduced custom types and simplified VM tests
 - Fixed log structuring and removed handler special cases
 
-## [v0.7.4](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.4)
+## [v0.7.4](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.4)
 
 - Major refactor to use [`libevm`](https://github.com/ava-labs/libevm) for EVM execution, database access, types & chain configuration. This improves maintainability and enables keeping up with upstream changes more easily.
 - Wrapped database with `corruptabledb` to prevent corruption of the database.
@@ -104,7 +104,7 @@ The plugin version is **updated** to 41 and is compatible with AvalancheGo versi
 - Updated golang version to 1.23.9
 - Fixed a bug in mempool where the min fee was not updated after restart
 
-## [v0.7.3](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.3)
+## [v0.7.3](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.3)
 
 This version is backwards compatible to v0.7.0. It is optional, but encouraged.
 
@@ -139,11 +139,11 @@ The plugin version is unchanged at 39 and is compatible with AvalancheGo version
 - simulator: fix wrong flag name `staking-enabled` -> `--sybil-protection-enabled=false` (#1476)
 - typo fixes (#1491, #1506)
 
-**Full Changelog**: <https://github.com/ava-labs/subnet-evm/compare/v0.7.2...v0.7.3>
+**Full Changelog**: <https://github.com/ryt-io/subnet-evm/compare/v0.7.2...v0.7.3>
 
-## [v0.7.2](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.2)
+## [v0.7.2](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.2)
 
-This version is backwards compatible to [v0.7.0](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.0). It is optional, **but strongly encouraged as it's fixing an important bug in uptime tracking.**
+This version is backwards compatible to [v0.7.0](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.0). It is optional, **but strongly encouraged as it's fixing an important bug in uptime tracking.**
 
 ### AvalancheGo Compatibility
 
@@ -155,7 +155,7 @@ The plugin version is unchanged at 39 and is compatible with AvalancheGo version
 - Bump golang version to v1.23.6
 - Bump golangci-lint to v1.63 and add linters
 
-## [v0.7.1](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.1)
+## [v0.7.1](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.1)
 
 This release focuses on code quality improvements and post-Etna cleanups.
 
@@ -172,7 +172,7 @@ The plugin version is **updated** to 39 and is compatible with AvalancheGo versi
 - Removed deprecated legacy gossip handler and metrics
 - Removed unnecessary locks in mempool
 
-## [v0.7.0](https://github.com/ava-labs/subnet-evm/releases/tag/v0.7.0)
+## [v0.7.0](https://github.com/ryt-io/subnet-evm/releases/tag/v0.7.0)
 
 ### Updates
 
@@ -182,11 +182,11 @@ The plugin version is **updated** to 39 and is compatible with AvalancheGo versi
 
 - Fixed database close on shutdown
 
-## [v0.6.11](https://github.com/ava-labs/subnet-evm/releases/tag/v0.6.11)
+## [v0.6.11](https://github.com/ryt-io/subnet-evm/releases/tag/v0.6.11)
 
 This release focuses on Standalone DB and database configs.
 
-This version is backwards compatible to [v0.6.0](https://github.com/ava-labs/subnet-evm/releases/tag/v0.6.0). It is optional, but encouraged.
+This version is backwards compatible to [v0.6.0](https://github.com/ryt-io/subnet-evm/releases/tag/v0.6.0). It is optional, but encouraged.
 
 The plugin version is unchanged at 37 and is compatible with AvalancheGo versions v1.11.12.
 

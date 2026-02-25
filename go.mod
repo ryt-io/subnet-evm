@@ -1,4 +1,4 @@
-module github.com/ava-labs/subnet-evm
+module github.com/ryt-io/subnet-evm
 
 // CLI tools intended for invocation with `go tool` should be added to
 // tools/go.mod to avoid polluting the main module's dependencies. See

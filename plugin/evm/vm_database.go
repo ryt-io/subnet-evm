@@ -24,7 +24,7 @@ import (
 	"github.com/ava-labs/libevm/core/rawdb"
 	"github.com/ava-labs/libevm/log"
 
-	"github.com/ava-labs/subnet-evm/plugin/evm/config"
+	"github.com/ryt-io/subnet-evm/plugin/evm/config"
 
 	avalanchedatabase "github.com/ava-labs/avalanchego/database"
 )

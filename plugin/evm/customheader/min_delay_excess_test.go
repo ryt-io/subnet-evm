@@ -10,10 +10,10 @@ import (
 	"github.com/ava-labs/libevm/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customtypes"
-	"github.com/ava-labs/subnet-evm/utils"
-	"github.com/ava-labs/subnet-evm/utils/utilstest"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"
+	"github.com/ryt-io/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/utils/utilstest"
 )
 
 func TestMinDelayExcess(t *testing.T) {

@@ -24,10 +24,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
-	"github.com/ava-labs/subnet-evm/ethclient"
-	"github.com/ava-labs/subnet-evm/tests"
-	"github.com/ava-labs/subnet-evm/tests/utils"
+	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
+	"github.com/ryt-io/subnet-evm/ethclient"
+	"github.com/ryt-io/subnet-evm/tests"
+	"github.com/ryt-io/subnet-evm/tests/utils"
 
 	ago_tests "github.com/ava-labs/avalanchego/tests"
 	timerpkg "github.com/ava-labs/avalanchego/utils/timer"

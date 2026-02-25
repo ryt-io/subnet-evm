@@ -10,7 +10,7 @@ import (
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/libevm/common/hexutil"
 
-	"github.com/ava-labs/subnet-evm/rpc"
+	"github.com/ryt-io/subnet-evm/rpc"
 )
 
 var _ Client = (*client)(nil)

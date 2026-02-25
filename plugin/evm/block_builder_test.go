@@ -13,7 +13,7 @@ import (
 	"github.com/ava-labs/libevm/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/plugin/evm/customtypes"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"
 )
 
 func TestCalculateBlockBuildingDelay(t *testing.T) {

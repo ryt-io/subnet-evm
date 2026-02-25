@@ -20,14 +20,14 @@ import (
 	"github.com/ava-labs/libevm/eth/tracers/logger"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/internal/ethapi"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customrawdb"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customtypes"
-	"github.com/ava-labs/subnet-evm/precompile/contracts/txallowlist"
-	"github.com/ava-labs/subnet-evm/rpc"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/internal/ethapi"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customrawdb"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"
+	"github.com/ryt-io/subnet-evm/precompile/contracts/txallowlist"
+	"github.com/ryt-io/subnet-evm/rpc"
 
 	ethparams "github.com/ava-labs/libevm/params"
 )

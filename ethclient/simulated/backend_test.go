@@ -40,10 +40,10 @@ import (
 	"github.com/ava-labs/libevm/core/types"
 	"github.com/ava-labs/libevm/crypto"
 	ethparams "github.com/ava-labs/libevm/params"
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customtypes"
-	"github.com/ava-labs/subnet-evm/rpc"
+	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"
+	"github.com/ryt-io/subnet-evm/rpc"
 	"github.com/stretchr/testify/require"
 )
 

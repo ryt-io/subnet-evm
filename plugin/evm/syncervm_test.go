@@ -33,20 +33,20 @@ import (
 	"github.com/ava-labs/libevm/triedb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/consensus/dummy"
-	"github.com/ava-labs/subnet-evm/constants"
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/core/coretest"
-	"github.com/ava-labs/subnet-evm/params/paramstest"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customrawdb"
-	"github.com/ava-labs/subnet-evm/sync/statesync/statesynctest"
-	"github.com/ava-labs/subnet-evm/utils/utilstest"
+	"github.com/ryt-io/subnet-evm/consensus/dummy"
+	"github.com/ryt-io/subnet-evm/constants"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/core/coretest"
+	"github.com/ryt-io/subnet-evm/params/paramstest"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customrawdb"
+	"github.com/ryt-io/subnet-evm/sync/statesync/statesynctest"
+	"github.com/ryt-io/subnet-evm/utils/utilstest"
 
 	avalanchedatabase "github.com/ava-labs/avalanchego/database"
 	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
 	ethparams "github.com/ava-labs/libevm/params"
-	syncervm "github.com/ava-labs/subnet-evm/plugin/evm/sync"
-	statesyncclient "github.com/ava-labs/subnet-evm/sync/client"
+	syncervm "github.com/ryt-io/subnet-evm/plugin/evm/sync"
+	statesyncclient "github.com/ryt-io/subnet-evm/sync/client"
 )
 
 func TestSkipStateSync(t *testing.T) {

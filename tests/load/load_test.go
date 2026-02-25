@@ -18,8 +18,8 @@ import (
 	"github.com/ava-labs/libevm/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/tests"
-	"github.com/ava-labs/subnet-evm/tests/utils"
+	"github.com/ryt-io/subnet-evm/tests"
+	"github.com/ryt-io/subnet-evm/tests/utils"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

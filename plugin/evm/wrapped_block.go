@@ -21,13 +21,13 @@ import (
 	"github.com/ava-labs/libevm/rlp"
 	"github.com/ava-labs/libevm/trie"
 
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customheader"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customtypes"
-	"github.com/ava-labs/subnet-evm/plugin/evm/extension"
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customheader"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"
+	"github.com/ryt-io/subnet-evm/plugin/evm/extension"
+	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"
 )
 
 var (

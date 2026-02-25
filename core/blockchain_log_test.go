@@ -15,10 +15,10 @@ import (
 	"github.com/ava-labs/libevm/crypto"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi"
-	"github.com/ava-labs/subnet-evm/consensus/dummy"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/plugin/evm/upgrade/legacy"
+	"github.com/ryt-io/subnet-evm/accounts/abi"
+	"github.com/ryt-io/subnet-evm/consensus/dummy"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/plugin/evm/upgrade/legacy"
 )
 
 func TestAcceptedLogsSubscription(t *testing.T) {

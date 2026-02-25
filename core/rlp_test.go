@@ -36,8 +36,8 @@ import (
 	"github.com/ava-labs/libevm/core/types"
 	"github.com/ava-labs/libevm/crypto"
 	"github.com/ava-labs/libevm/rlp"
-	"github.com/ava-labs/subnet-evm/consensus/dummy"
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/consensus/dummy"
+	"github.com/ryt-io/subnet-evm/params"
 	"golang.org/x/crypto/sha3"
 )
 

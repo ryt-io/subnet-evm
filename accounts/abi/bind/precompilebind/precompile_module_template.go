@@ -14,9 +14,9 @@ package {{.Package}}
 import (
 	"fmt"
 
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
-	"github.com/ava-labs/subnet-evm/precompile/contract"
-	"github.com/ava-labs/subnet-evm/precompile/modules"
+	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"
+	"github.com/ryt-io/subnet-evm/precompile/contract"
+	"github.com/ryt-io/subnet-evm/precompile/modules"
 
 	"github.com/ava-labs/libevm/common"
 )

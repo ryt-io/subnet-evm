@@ -22,9 +22,9 @@ import (
 	"github.com/ava-labs/libevm/log"
 	"github.com/ava-labs/libevm/trie"
 
-	"github.com/ava-labs/subnet-evm/network"
-	"github.com/ava-labs/subnet-evm/plugin/evm/message"
-	"github.com/ava-labs/subnet-evm/sync/client/stats"
+	"github.com/ryt-io/subnet-evm/network"
+	"github.com/ryt-io/subnet-evm/plugin/evm/message"
+	"github.com/ryt-io/subnet-evm/sync/client/stats"
 
 	ethparams "github.com/ava-labs/libevm/params"
 )

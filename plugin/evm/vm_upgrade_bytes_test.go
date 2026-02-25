@@ -23,13 +23,13 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/params/paramstest"
-	"github.com/ava-labs/subnet-evm/plugin/evm/vmerrors"
-	"github.com/ava-labs/subnet-evm/precompile/contracts/txallowlist"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/params/paramstest"
+	"github.com/ryt-io/subnet-evm/plugin/evm/vmerrors"
+	"github.com/ryt-io/subnet-evm/precompile/contracts/txallowlist"
+	"github.com/ryt-io/subnet-evm/utils"
 
 	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
 )

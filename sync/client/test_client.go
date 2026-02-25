@@ -14,8 +14,8 @@ import (
 	"github.com/ava-labs/libevm/core/types"
 	"github.com/ava-labs/libevm/rlp"
 
-	"github.com/ava-labs/subnet-evm/plugin/evm/message"
-	"github.com/ava-labs/subnet-evm/sync/handlers"
+	"github.com/ryt-io/subnet-evm/plugin/evm/message"
+	"github.com/ryt-io/subnet-evm/sync/handlers"
 )
 
 var (

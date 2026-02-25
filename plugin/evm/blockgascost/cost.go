@@ -7,7 +7,7 @@ package blockgascost
 import (
 	"math"
 
-	"github.com/ava-labs/subnet-evm/commontype"
+	"github.com/ryt-io/subnet-evm/commontype"
 
 	safemath "github.com/ava-labs/avalanchego/utils/math"
 )

@@ -16,7 +16,7 @@ import (
 	"github.com/ava-labs/libevm/common/math"
 	"github.com/ava-labs/libevm/log"
 
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
+	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"
 )
 
 const (

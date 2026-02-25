@@ -9,9 +9,9 @@ import (
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/libevm"
 
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/precompile/modules"
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/precompile/modules"
+	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"
 
 	ethparams "github.com/ava-labs/libevm/params"
 )

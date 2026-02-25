@@ -35,9 +35,9 @@ import (
 	"strings"
 
 	"github.com/ava-labs/libevm/libevm"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/utils"
 )
 
 // Forks table defines supported forks and their chain config.

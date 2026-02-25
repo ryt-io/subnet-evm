@@ -13,7 +13,7 @@ import (
 	"github.com/ava-labs/libevm/log"
 	"github.com/ava-labs/libevm/rlp"
 
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/params"
 
 	ethrawdb "github.com/ava-labs/libevm/core/rawdb"
 )

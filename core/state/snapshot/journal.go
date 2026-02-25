@@ -39,7 +39,7 @@ import (
 	"github.com/ava-labs/libevm/log"
 	"github.com/ava-labs/libevm/rlp"
 	"github.com/ava-labs/libevm/triedb"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customrawdb"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customrawdb"
 )
 
 // journalGenerator is a disk layer entry containing the generator progress marker.

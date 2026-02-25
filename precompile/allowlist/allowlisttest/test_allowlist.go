@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/subnet-evm/core/extstate"
-	"github.com/ava-labs/subnet-evm/precompile/allowlist"
-	"github.com/ava-labs/subnet-evm/precompile/contract"
-	"github.com/ava-labs/subnet-evm/precompile/modules"
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
-	"github.com/ava-labs/subnet-evm/precompile/precompiletest"
+	"github.com/ryt-io/subnet-evm/core/extstate"
+	"github.com/ryt-io/subnet-evm/precompile/allowlist"
+	"github.com/ryt-io/subnet-evm/precompile/contract"
+	"github.com/ryt-io/subnet-evm/precompile/modules"
+	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"
+	"github.com/ryt-io/subnet-evm/precompile/precompiletest"
 
 	ethtypes "github.com/ava-labs/libevm/core/types"
 )

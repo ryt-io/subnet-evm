@@ -11,10 +11,10 @@ import (
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/core/types"
 
-	"github.com/ava-labs/subnet-evm/commontype"
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/plugin/evm/blockgascost"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customtypes"
+	"github.com/ryt-io/subnet-evm/commontype"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/plugin/evm/blockgascost"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"
 )
 
 var (

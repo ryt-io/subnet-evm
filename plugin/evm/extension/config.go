@@ -18,14 +18,14 @@ import (
 	"github.com/ava-labs/libevm/core/types"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/subnet-evm/consensus/dummy"
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/plugin/evm/config"
-	"github.com/ava-labs/subnet-evm/plugin/evm/message"
-	"github.com/ava-labs/subnet-evm/plugin/evm/sync"
-	"github.com/ava-labs/subnet-evm/sync/handlers"
+	"github.com/ryt-io/subnet-evm/consensus/dummy"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/plugin/evm/config"
+	"github.com/ryt-io/subnet-evm/plugin/evm/message"
+	"github.com/ryt-io/subnet-evm/plugin/evm/sync"
+	"github.com/ryt-io/subnet-evm/sync/handlers"
 
 	avalanchecommon "github.com/ava-labs/avalanchego/snow/engine/common"
 )

@@ -9,7 +9,7 @@ import (
 	"github.com/ava-labs/libevm/core/state"
 	"github.com/ava-labs/libevm/core/types"
 
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/params"
 )
 
 type StateDB struct {

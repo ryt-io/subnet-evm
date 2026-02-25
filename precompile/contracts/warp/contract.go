@@ -16,9 +16,9 @@ import (
 
 	_ "embed"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi"
-	"github.com/ava-labs/subnet-evm/precompile/contract"
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
+	"github.com/ryt-io/subnet-evm/accounts/abi"
+	"github.com/ryt-io/subnet-evm/precompile/contract"
+	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"
 )
 
 const addWarpMessageBaseGasCost uint64 = 20_000 // Cost of producing and serving a BLS Signature

@@ -5,10 +5,10 @@ Subnet-EVM has been moved entirely to the [AvalancheGo](https://github.com/ava-l
 
 # Subnet EVM
 
-[![Releases](https://img.shields.io/github/v/tag/ava-labs/subnet-evm.svg?sort=semver)](https://github.com/ava-labs/subnet-evm/releases)
-[![CI](https://github.com/ava-labs/subnet-evm/actions/workflows/ci.yml/badge.svg)](https://github.com/ava-labs/subnet-evm/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/ava-labs/subnet-evm/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ava-labs/subnet-evm/actions/workflows/codeql-analysis.yml)
-[![License](https://img.shields.io/github/license/ava-labs/subnet-evm)](https://github.com/ava-labs/subnet-evm/blob/master/LICENSE)
+[![Releases](https://img.shields.io/github/v/tag/ava-labs/subnet-evm.svg?sort=semver)](https://github.com/ryt-io/subnet-evm/releases)
+[![CI](https://github.com/ryt-io/subnet-evm/actions/workflows/ci.yml/badge.svg)](https://github.com/ryt-io/subnet-evm/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/ryt-io/subnet-evm/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ryt-io/subnet-evm/actions/workflows/codeql-analysis.yml)
+[![License](https://img.shields.io/github/license/ava-labs/subnet-evm)](https://github.com/ryt-io/subnet-evm/blob/master/LICENSE)
 
 [Avalanche](https://build.avax.network/docs/avalanche-l1s) is a network composed of multiple blockchains.
 Each blockchain is an instance of a Virtual Machine (VM), much like an object in an object-oriented language is an instance of a class.

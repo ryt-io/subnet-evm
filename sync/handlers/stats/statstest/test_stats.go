@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/subnet-evm/sync/handlers/stats"
+	"github.com/ryt-io/subnet-evm/sync/handlers/stats"
 )
 
 var _ stats.HandlerStats = (*TestHandlerStats)(nil)

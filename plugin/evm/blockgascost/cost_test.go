@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/commontype"
+	"github.com/ryt-io/subnet-evm/commontype"
 )
 
 func TestBlockGasCost(t *testing.T) {

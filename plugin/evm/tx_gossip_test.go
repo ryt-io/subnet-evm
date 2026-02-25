@@ -28,8 +28,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/ava-labs/subnet-evm/params/paramstest"
-	"github.com/ava-labs/subnet-evm/utils/utilstest"
+	"github.com/ryt-io/subnet-evm/params/paramstest"
+	"github.com/ryt-io/subnet-evm/utils/utilstest"
 
 	agoUtils "github.com/ava-labs/avalanchego/utils"
 )

@@ -13,10 +13,10 @@ import (
 	"github.com/ava-labs/libevm/core/types"
 	"github.com/ava-labs/libevm/log"
 
-	"github.com/ava-labs/subnet-evm/cmd/simulator/key"
-	"github.com/ava-labs/subnet-evm/cmd/simulator/metrics"
-	"github.com/ava-labs/subnet-evm/cmd/simulator/txs"
-	"github.com/ava-labs/subnet-evm/ethclient"
+	"github.com/ryt-io/subnet-evm/cmd/simulator/key"
+	"github.com/ryt-io/subnet-evm/cmd/simulator/metrics"
+	"github.com/ryt-io/subnet-evm/cmd/simulator/txs"
+	"github.com/ryt-io/subnet-evm/ethclient"
 
 	ethparams "github.com/ava-labs/libevm/params"
 )

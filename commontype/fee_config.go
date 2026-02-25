@@ -10,7 +10,7 @@ import (
 
 	"github.com/ava-labs/libevm/common"
 
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/utils"
 )
 
 var (

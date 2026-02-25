@@ -11,19 +11,19 @@ import (
 	"github.com/ava-labs/libevm/crypto"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/plugin/evm/customtypes"
-	"github.com/ava-labs/subnet-evm/plugin/evm/vmerrors"
-	"github.com/ava-labs/subnet-evm/precompile/allowlist"
-	"github.com/ava-labs/subnet-evm/precompile/allowlist/allowlisttest"
-	"github.com/ava-labs/subnet-evm/precompile/contracts/testutils"
-	"github.com/ava-labs/subnet-evm/precompile/contracts/txallowlist"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"
+	"github.com/ryt-io/subnet-evm/plugin/evm/vmerrors"
+	"github.com/ryt-io/subnet-evm/precompile/allowlist"
+	"github.com/ryt-io/subnet-evm/precompile/allowlist/allowlisttest"
+	"github.com/ryt-io/subnet-evm/precompile/contracts/testutils"
+	"github.com/ryt-io/subnet-evm/precompile/contracts/txallowlist"
+	"github.com/ryt-io/subnet-evm/utils"
 
-	sim "github.com/ava-labs/subnet-evm/ethclient/simulated"
-	allowlistbindings "github.com/ava-labs/subnet-evm/precompile/allowlist/allowlisttest/bindings"
+	sim "github.com/ryt-io/subnet-evm/ethclient/simulated"
+	allowlistbindings "github.com/ryt-io/subnet-evm/precompile/allowlist/allowlisttest/bindings"
 )
 
 var (

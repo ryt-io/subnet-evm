@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi"
+	"github.com/ryt-io/subnet-evm/accounts/abi"
 )
 
 type (

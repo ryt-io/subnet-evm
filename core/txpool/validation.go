@@ -39,10 +39,10 @@ import (
 	"github.com/ava-labs/libevm/crypto/kzg4844"
 	"github.com/ava-labs/libevm/log"
 	ethparams "github.com/ava-labs/libevm/params"
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/plugin/evm/vmerrors"
-	"github.com/ava-labs/subnet-evm/precompile/contracts/txallowlist"
+	"github.com/ryt-io/subnet-evm/core"
+	"github.com/ryt-io/subnet-evm/params"
+	"github.com/ryt-io/subnet-evm/plugin/evm/vmerrors"
+	"github.com/ryt-io/subnet-evm/precompile/contracts/txallowlist"
 )
 
 var (

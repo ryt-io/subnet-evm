@@ -32,8 +32,8 @@ import (
 
 	"github.com/ava-labs/libevm/libevm"
 	ethparams "github.com/ava-labs/libevm/params"
-	"github.com/ava-labs/subnet-evm/params/extras"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/ryt-io/subnet-evm/params/extras"
+	"github.com/ryt-io/subnet-evm/utils"
 )
 
 func init() {

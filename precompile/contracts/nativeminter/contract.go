@@ -15,8 +15,8 @@ import (
 
 	_ "embed"
 
-	"github.com/ava-labs/subnet-evm/precompile/allowlist"
-	"github.com/ava-labs/subnet-evm/precompile/contract"
+	"github.com/ryt-io/subnet-evm/precompile/allowlist"
+	"github.com/ryt-io/subnet-evm/precompile/contract"
 )
 
 const (
