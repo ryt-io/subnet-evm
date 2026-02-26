@@ -4,8 +4,8 @@
 package firewood
 
 import (
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/trie/trienode"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/trie/trienode"
 )
 
 type StorageTrie struct {

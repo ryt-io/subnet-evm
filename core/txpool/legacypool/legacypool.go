@@ -37,13 +37,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/prque"
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/event"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/metrics"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/prque"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/event"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/metrics"
 	"github.com/ryt-io/subnet-evm/commontype"
 	"github.com/ryt-io/subnet-evm/core"
 	"github.com/ryt-io/subnet-evm/core/txpool"
@@ -54,7 +54,7 @@ import (
 	"github.com/holiman/uint256"
 
 	// Force libevm metrics of the same name to be registered first.
-	_ "github.com/ava-labs/libevm/core/txpool/legacypool"
+	_ "github.com/ryt-io/libevm/core/txpool/legacypool"
 )
 
 const (

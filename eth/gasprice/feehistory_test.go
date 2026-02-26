@@ -33,12 +33,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/libevm/core/types"
-	ethparams "github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/libevm/core/types"
+	ethparams "github.com/ryt-io/libevm/params"
 	"github.com/ryt-io/subnet-evm/core"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"github.com/ryt-io/subnet-evm/params"
 	"github.com/ryt-io/subnet-evm/rpc"
 )

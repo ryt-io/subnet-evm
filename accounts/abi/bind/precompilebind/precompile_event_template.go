@@ -14,7 +14,7 @@ import (
 	"math/big"
 
 	"github.com/ryt-io/subnet-evm/precompile/contract"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // CUSTOM CODE STARTS HERE

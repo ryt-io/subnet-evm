@@ -9,9 +9,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/core/types"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
@@ -21,7 +21,7 @@ import (
 	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"
 	"github.com/ryt-io/subnet-evm/rpc"
 
-	ethparams "github.com/ava-labs/libevm/params"
+	ethparams "github.com/ryt-io/libevm/params"
 )
 
 func TestMain(m *testing.M) {

@@ -40,7 +40,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/log"
 	"github.com/ryt-io/subnet-evm/accounts/abi"
 )
 

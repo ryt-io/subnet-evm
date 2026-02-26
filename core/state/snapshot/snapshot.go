@@ -35,14 +35,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	ethsnapshot "github.com/ava-labs/libevm/core/state/snapshot"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/libevm/stateconf"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/metrics"
-	"github.com/ava-labs/libevm/triedb"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	ethsnapshot "github.com/ryt-io/libevm/core/state/snapshot"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/libevm/stateconf"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/metrics"
+	"github.com/ryt-io/libevm/triedb"
 	"github.com/ryt-io/subnet-evm/plugin/evm/customrawdb"
 )
 

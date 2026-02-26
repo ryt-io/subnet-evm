@@ -12,12 +12,12 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/common/math"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/eth/tracers/logger"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/eth/tracers/logger"
 	"github.com/stretchr/testify/require"
 
 	"github.com/ryt-io/subnet-evm/core"
@@ -29,7 +29,7 @@ import (
 	"github.com/ryt-io/subnet-evm/precompile/contracts/txallowlist"
 	"github.com/ryt-io/subnet-evm/rpc"
 
-	ethparams "github.com/ava-labs/libevm/params"
+	ethparams "github.com/ryt-io/libevm/params"
 )
 
 func TestMain(m *testing.M) {

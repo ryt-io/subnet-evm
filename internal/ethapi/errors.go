@@ -30,8 +30,8 @@ package ethapi
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/core/vm"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/core/vm"
 	"github.com/ryt-io/subnet-evm/accounts/abi"
 )
 

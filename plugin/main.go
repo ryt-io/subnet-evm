@@ -6,7 +6,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/ryt-io/ryt-v2/version"
 
 	"github.com/ryt-io/subnet-evm/plugin/evm"
 	"github.com/ryt-io/subnet-evm/plugin/runner"

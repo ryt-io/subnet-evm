@@ -34,10 +34,10 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/core/types"
+	ethereum "github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/core/types"
 	"github.com/ryt-io/subnet-evm/ethclient"
 	"github.com/ryt-io/subnet-evm/rpc"
 )

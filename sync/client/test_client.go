@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/codec"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/rlp"
 
 	"github.com/ryt-io/subnet-evm/plugin/evm/message"
 	"github.com/ryt-io/subnet-evm/sync/handlers"

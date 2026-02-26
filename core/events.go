@@ -28,8 +28,8 @@
 package core
 
 import (
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

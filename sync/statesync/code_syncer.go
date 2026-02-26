@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/ethdb"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/set"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/ethdb"
 
 	"github.com/ryt-io/subnet-evm/plugin/evm/customrawdb"
 	"github.com/ryt-io/subnet-evm/plugin/evm/message"

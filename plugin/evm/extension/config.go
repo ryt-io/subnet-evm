@@ -7,15 +7,15 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/ryt-v2/database"
+	"github.com/ryt-io/ryt-v2/database/versiondb"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/network/p2p"
+	"github.com/ryt-io/ryt-v2/snow/consensus/snowman"
+	"github.com/ryt-io/ryt-v2/snow/engine/snowman/block"
+	"github.com/ryt-io/ryt-v2/utils/timer/mockable"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/ryt-io/subnet-evm/consensus/dummy"
@@ -27,7 +27,7 @@ import (
 	"github.com/ryt-io/subnet-evm/plugin/evm/sync"
 	"github.com/ryt-io/subnet-evm/sync/handlers"
 
-	avalanchecommon "github.com/ava-labs/avalanchego/snow/engine/common"
+	avalanchecommon "github.com/ryt-io/ryt-v2/snow/engine/common"
 )
 
 var (

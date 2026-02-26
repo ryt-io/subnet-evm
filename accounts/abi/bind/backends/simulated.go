@@ -30,9 +30,9 @@ package backends
 import (
 	"context"
 
-	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
+	ethereum "github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
 	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
 	"github.com/ryt-io/subnet-evm/ethclient/simulated"
 	"github.com/ryt-io/subnet-evm/interfaces"

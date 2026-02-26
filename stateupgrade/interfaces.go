@@ -6,8 +6,8 @@ package stateupgrade
 import (
 	"math/big"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/libevm/stateconf"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/libevm/stateconf"
 	"github.com/holiman/uint256"
 )
 

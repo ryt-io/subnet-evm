@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/vms/evm/acp226"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/trie"
+	"github.com/ryt-io/ryt-v2/vms/evm/acp226"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/trie"
 
 	"github.com/ryt-io/subnet-evm/consensus"
 	"github.com/ryt-io/subnet-evm/params"

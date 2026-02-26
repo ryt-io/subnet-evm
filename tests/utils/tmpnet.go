@@ -7,9 +7,9 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
+	"github.com/ryt-io/ryt-v2/config"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/tests/fixture/tmpnet"
 
 	"github.com/ryt-io/subnet-evm/plugin/evm"
 )

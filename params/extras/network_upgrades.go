@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/ava-labs/avalanchego/upgrade"
+	"github.com/ryt-io/ryt-v2/upgrade"
 
 	"github.com/ryt-io/subnet-evm/utils"
 
-	ethparams "github.com/ava-labs/libevm/params"
+	ethparams "github.com/ryt-io/libevm/params"
 )
 
 var (

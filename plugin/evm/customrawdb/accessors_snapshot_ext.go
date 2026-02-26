@@ -4,11 +4,11 @@
 package customrawdb
 
 import (
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
 
-	ethrawdb "github.com/ava-labs/libevm/core/rawdb"
+	ethrawdb "github.com/ryt-io/libevm/core/rawdb"
 )
 
 // ReadSnapshotBlockHash retrieves the hash of the block whose state is contained in

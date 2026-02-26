@@ -36,8 +36,8 @@ import (
 
 	_ "embed"
 
-	"github.com/ava-labs/libevm/cmd/utils"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/cmd/utils"
+	"github.com/ryt-io/libevm/log"
 	"github.com/ryt-io/subnet-evm/accounts/abi/bind"
 	"github.com/ryt-io/subnet-evm/accounts/abi/bind/precompilebind"
 	"github.com/ryt-io/subnet-evm/internal/flags"

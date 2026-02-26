@@ -43,7 +43,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/log"
 	"github.com/davecgh/go-spew/spew"
 )
 

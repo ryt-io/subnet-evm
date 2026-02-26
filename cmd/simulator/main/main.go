@@ -15,7 +15,7 @@ import (
 	"github.com/ryt-io/subnet-evm/cmd/simulator/load"
 	"github.com/ryt-io/subnet-evm/log"
 
-	gethlog "github.com/ava-labs/libevm/log"
+	gethlog "github.com/ryt-io/libevm/log"
 )
 
 func main() {

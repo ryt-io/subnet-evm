@@ -35,8 +35,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	ethparams "github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/libevm/common"
+	ethparams "github.com/ryt-io/libevm/params"
 	"github.com/ryt-io/subnet-evm/params/extras"
 	"github.com/ryt-io/subnet-evm/precompile/contracts/nativeminter"
 	"github.com/ryt-io/subnet-evm/precompile/contracts/rewardmanager"

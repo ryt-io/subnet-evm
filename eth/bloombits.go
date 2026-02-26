@@ -30,8 +30,8 @@ package eth
 import (
 	"time"
 
-	"github.com/ava-labs/libevm/common/bitutil"
-	"github.com/ava-labs/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/common/bitutil"
+	"github.com/ryt-io/libevm/core/rawdb"
 )
 
 const (

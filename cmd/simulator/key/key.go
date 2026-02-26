@@ -9,9 +9,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 
-	ethcrypto "github.com/ava-labs/libevm/crypto"
+	ethcrypto "github.com/ryt-io/libevm/crypto"
 )
 
 type Key struct {

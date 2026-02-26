@@ -35,8 +35,8 @@ import (
 
 	"golang.org/x/exp/slog"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/log"
 )
 
 // generatorStats is a collection of statistics gathered by the snapshot generator

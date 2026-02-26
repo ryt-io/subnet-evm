@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/libevm/common/hexutil"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/libevm/common/hexutil"
 
 	"github.com/ryt-io/subnet-evm/rpc"
 )

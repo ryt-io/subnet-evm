@@ -4,7 +4,7 @@
 package extstate
 
 import (
-	"github.com/ava-labs/libevm/core/state"
+	"github.com/ryt-io/libevm/core/state"
 
 	"github.com/ryt-io/subnet-evm/utils"
 )

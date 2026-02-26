@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/log"
 
 	"github.com/ryt-io/subnet-evm/core/extstate"
 	"github.com/ryt-io/subnet-evm/params"

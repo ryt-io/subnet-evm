@@ -33,9 +33,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/bloombits"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/bloombits"
+	"github.com/ryt-io/libevm/core/types"
 	"github.com/ryt-io/subnet-evm/rpc"
 )
 

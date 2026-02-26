@@ -33,8 +33,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/trie/triestate"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/trie/triestate"
 	"golang.org/x/exp/slices"
 )
 

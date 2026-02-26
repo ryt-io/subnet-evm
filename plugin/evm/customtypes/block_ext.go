@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ava-labs/avalanchego/vms/evm/acp226"
+	"github.com/ryt-io/ryt-v2/vms/evm/acp226"
 
-	ethtypes "github.com/ava-labs/libevm/core/types"
+	ethtypes "github.com/ryt-io/libevm/core/types"
 )
 
 func BlockGasCost(b *ethtypes.Block) *big.Int {

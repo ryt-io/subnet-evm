@@ -36,8 +36,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
 	"github.com/holiman/uint256"
 	"golang.org/x/exp/slices"
 )

@@ -9,14 +9,14 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/libevm/stateconf"
-	"github.com/ava-labs/libevm/trie/trienode"
-	"github.com/ava-labs/libevm/triedb"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/libevm/stateconf"
+	"github.com/ryt-io/libevm/trie/trienode"
+	"github.com/ryt-io/libevm/triedb"
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
@@ -235,7 +235,7 @@ func (fs *fuzzState) deleteAccount(accountIndex int) {
 // until commit as opposed to after each storage update.
 // This mimics the actual handling of state commitments in the EVM where storage tries are all committed immediately
 // before updating the account trie along with the updated storage trie roots:
-// https://github.com/ava-labs/libevm/blob/0bfe4a0380c86d7c9bf19fe84368b9695fcb96c7/core/state/statedb.go#L1155
+// https://github.com/ryt-io/libevm/blob/0bfe4a0380c86d7c9bf19fe84368b9695fcb96c7/core/state/statedb.go#L1155
 //
 // If we attempt to commit the storage tries after each operation, then attempting to re-open the storage trie
 // with an updated storage trie root from ethDatabase will fail since the storage trie root will not have been

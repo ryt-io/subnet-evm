@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/upgrade"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/snow"
+	"github.com/ryt-io/ryt-v2/upgrade"
+	"github.com/ryt-io/libevm/common"
 	"github.com/stretchr/testify/require"
 
 	"github.com/ryt-io/subnet-evm/commontype"

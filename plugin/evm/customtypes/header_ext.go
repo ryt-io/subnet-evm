@@ -7,12 +7,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/vms/evm/acp226"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/vms/evm/acp226"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/rlp"
 
-	ethtypes "github.com/ava-labs/libevm/core/types"
+	ethtypes "github.com/ryt-io/libevm/core/types"
 )
 
 // GetHeaderExtra returns the [HeaderExtra] from the given [Header].

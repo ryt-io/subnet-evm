@@ -4,8 +4,8 @@
 package syncutils
 
 import (
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/ethdb"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/ethdb"
 
 	"github.com/ryt-io/subnet-evm/core/state/snapshot"
 )

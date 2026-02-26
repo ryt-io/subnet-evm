@@ -6,7 +6,7 @@ package config
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/ryt-io/ryt-v2/utils/units"
 )
 
 const (

@@ -37,7 +37,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/log"
 	"github.com/ryt-io/subnet-evm/internal/flags"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"

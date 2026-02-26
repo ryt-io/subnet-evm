@@ -11,12 +11,12 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/ethdb"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/ethdb"
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
@@ -30,7 +30,7 @@ import (
 	"github.com/ryt-io/subnet-evm/precompile/contracts/feemanager"
 	"github.com/ryt-io/subnet-evm/utils"
 
-	ethparams "github.com/ava-labs/libevm/params"
+	ethparams "github.com/ryt-io/libevm/params"
 )
 
 type createFunc func(db ethdb.Database, gspec *Genesis, lastAcceptedHash common.Hash, dataPath string) (*BlockChain, error)

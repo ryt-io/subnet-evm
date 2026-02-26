@@ -6,7 +6,7 @@ package network
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/ryt-io/ryt-v2/ids"
 	"github.com/stretchr/testify/require"
 )
 

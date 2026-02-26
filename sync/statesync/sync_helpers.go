@@ -4,11 +4,11 @@
 package statesync
 
 import (
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/trie"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/trie"
 )
 
 // writeAccountSnapshot stores the account represented by [acc] to the snapshot at [accHash], using

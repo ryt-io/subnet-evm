@@ -10,10 +10,10 @@ package tempextrastest
 import (
 	"testing"
 
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/core/vm"
-	"github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/params"
 	"github.com/stretchr/testify/require"
 
 	"github.com/ryt-io/subnet-evm/plugin/evm"

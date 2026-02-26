@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/vms/evm/acp226"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/ryt-v2/vms/evm/acp226"
+	"github.com/ryt-io/libevm/core/types"
 
 	"github.com/ryt-io/subnet-evm/params/extras"
 	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"

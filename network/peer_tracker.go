@@ -7,15 +7,15 @@ import (
 	"math"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/metrics"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/set"
+	"github.com/ryt-io/ryt-v2/version"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/metrics"
 
 	"github.com/ryt-io/subnet-evm/utils/rand"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/ryt-io/ryt-v2/utils/math"
 )
 
 const (

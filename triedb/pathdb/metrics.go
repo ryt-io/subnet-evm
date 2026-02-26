@@ -28,10 +28,10 @@
 package pathdb
 
 import (
-	"github.com/ava-labs/libevm/metrics"
+	"github.com/ryt-io/libevm/metrics"
 
 	// Force libevm metrics of the same name to be registered first.
-	_ "github.com/ava-labs/libevm/triedb/pathdb"
+	_ "github.com/ryt-io/libevm/triedb/pathdb"
 )
 
 // ====== If resolving merge conflicts ======

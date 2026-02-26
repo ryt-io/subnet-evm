@@ -30,7 +30,7 @@ package core
 import (
 	"errors"
 
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/libevm/core/types"
 )
 
 var (

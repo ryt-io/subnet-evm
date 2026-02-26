@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/core/vm"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/crypto"
 	"github.com/stretchr/testify/require"
 
 	"github.com/ryt-io/subnet-evm/accounts/abi"

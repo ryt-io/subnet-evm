@@ -14,9 +14,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/log"
 	"golang.org/x/sync/errgroup"
 
 	"github.com/ryt-io/subnet-evm/cmd/simulator/config"
@@ -26,8 +26,8 @@ import (
 	"github.com/ryt-io/subnet-evm/ethclient"
 	"github.com/ryt-io/subnet-evm/params"
 
-	ethcrypto "github.com/ava-labs/libevm/crypto"
-	ethparams "github.com/ava-labs/libevm/params"
+	ethcrypto "github.com/ryt-io/libevm/crypto"
+	ethparams "github.com/ryt-io/libevm/params"
 )
 
 const (

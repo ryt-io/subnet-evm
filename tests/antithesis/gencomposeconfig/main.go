@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/avalanchego/tests/antithesis"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
+	"github.com/ryt-io/ryt-v2/tests/antithesis"
+	"github.com/ryt-io/ryt-v2/tests/fixture/tmpnet"
 
 	"github.com/ryt-io/subnet-evm/tests/utils"
 )

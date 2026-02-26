@@ -31,10 +31,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	ethparams "github.com/ava-labs/libevm/params"
-	"github.com/ava-labs/libevm/trie"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	ethparams "github.com/ryt-io/libevm/params"
+	"github.com/ryt-io/libevm/trie"
 	"github.com/ryt-io/subnet-evm/consensus"
 	"github.com/ryt-io/subnet-evm/params"
 )

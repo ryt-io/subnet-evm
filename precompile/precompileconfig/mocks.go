@@ -12,8 +12,8 @@ package precompileconfig
 import (
 	reflect "reflect"
 
-	predicate "github.com/ava-labs/avalanchego/vms/evm/predicate"
-	common "github.com/ava-labs/libevm/common"
+	predicate "github.com/ryt-io/ryt-v2/vms/evm/predicate"
+	common "github.com/ryt-io/libevm/common"
 	commontype "github.com/ryt-io/subnet-evm/commontype"
 	gomock "go.uber.org/mock/gomock"
 )

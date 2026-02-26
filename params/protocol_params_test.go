@@ -6,10 +6,10 @@ package params
 import (
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"github.com/stretchr/testify/require"
 
-	ethparams "github.com/ava-labs/libevm/params"
+	ethparams "github.com/ryt-io/libevm/params"
 )
 
 // TestUpstreamParamsValues detects when a params value changes upstream to prevent a subtle change

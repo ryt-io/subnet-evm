@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/libevm/core/types"
 	"github.com/stretchr/testify/require"
 
 	"github.com/ryt-io/subnet-evm/params/extras"

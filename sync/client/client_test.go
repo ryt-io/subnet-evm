@@ -11,12 +11,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/triedb"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/triedb"
 	"github.com/stretchr/testify/require"
 
 	"github.com/ryt-io/subnet-evm/consensus/dummy"
@@ -27,7 +27,7 @@ import (
 	"github.com/ryt-io/subnet-evm/sync/handlers"
 	"github.com/ryt-io/subnet-evm/sync/statesync/statesynctest"
 
-	ethparams "github.com/ava-labs/libevm/params"
+	ethparams "github.com/ryt-io/libevm/params"
 	clientstats "github.com/ryt-io/subnet-evm/sync/client/stats"
 	handlerstats "github.com/ryt-io/subnet-evm/sync/handlers/stats"
 )

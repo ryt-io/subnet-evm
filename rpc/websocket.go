@@ -38,7 +38,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/log"
 	mapset "github.com/deckarep/golang-set/v2"
 	"github.com/gorilla/websocket"
 )

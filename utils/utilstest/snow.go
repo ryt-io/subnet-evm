@@ -8,12 +8,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/snowtest"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/snow/validators/validatorstest"
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/snow"
+	"github.com/ryt-io/ryt-v2/snow/snowtest"
+	"github.com/ryt-io/ryt-v2/snow/validators"
+	"github.com/ryt-io/ryt-v2/snow/validators/validatorstest"
+	"github.com/ryt-io/ryt-v2/utils/constants"
 )
 
 // SubnetEVMTestChainID is a subnet-evm specific chain ID for testing

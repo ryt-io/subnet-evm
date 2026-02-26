@@ -7,9 +7,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/ryt-io/ryt-v2/api"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/rpc"
 	"golang.org/x/exp/slog"
 
 	"github.com/ryt-io/subnet-evm/plugin/evm/config"

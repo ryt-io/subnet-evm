@@ -33,8 +33,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 func TestMakeTopics(t *testing.T) {

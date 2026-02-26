@@ -28,7 +28,7 @@
 package runtime
 
 import (
-	"github.com/ava-labs/libevm/core/vm"
+	"github.com/ryt-io/libevm/core/vm"
 	"github.com/ryt-io/subnet-evm/core"
 )
 

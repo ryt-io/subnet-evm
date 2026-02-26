@@ -41,9 +41,9 @@ import (
 
 	_ "embed"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/core/vm"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
 )
 {{$contract := .Contract}}
 const (

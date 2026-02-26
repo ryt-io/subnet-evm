@@ -37,7 +37,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // Type enumerator

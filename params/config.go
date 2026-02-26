@@ -30,8 +30,8 @@ package params
 import (
 	"math/big"
 
-	"github.com/ava-labs/libevm/libevm"
-	ethparams "github.com/ava-labs/libevm/params"
+	"github.com/ryt-io/libevm/libevm"
+	ethparams "github.com/ryt-io/libevm/params"
 	"github.com/ryt-io/subnet-evm/params/extras"
 	"github.com/ryt-io/subnet-evm/utils"
 )

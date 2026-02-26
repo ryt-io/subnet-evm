@@ -6,7 +6,7 @@ package utils
 import (
 	"bytes"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 )
 
 // AddressRange represents a continuous range of addresses

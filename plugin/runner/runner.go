@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/ulimit"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	"github.com/ryt-io/ryt-v2/utils/ulimit"
+	"github.com/ryt-io/ryt-v2/vms/rpcchainvm"
 
 	"github.com/ryt-io/subnet-evm/plugin/evm"
 )

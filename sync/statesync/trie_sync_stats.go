@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/metrics"
+	"github.com/ryt-io/ryt-v2/utils/timer"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/metrics"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/ryt-io/ryt-v2/utils/math"
 )
 
 const (

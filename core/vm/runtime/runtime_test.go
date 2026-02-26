@@ -34,13 +34,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/asm"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/state"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/core/vm"
-	"github.com/ava-labs/libevm/eth/tracers/logger"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/asm"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/state"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/eth/tracers/logger"
 	"github.com/ryt-io/subnet-evm/accounts/abi"
 	"github.com/ryt-io/subnet-evm/consensus"
 	"github.com/ryt-io/subnet-evm/core"
@@ -48,7 +48,7 @@ import (
 	"github.com/ryt-io/subnet-evm/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ava-labs/libevm/eth/tracers/js"
+	_ "github.com/ryt-io/libevm/eth/tracers/js"
 	"github.com/holiman/uint256"
 )
 

@@ -7,9 +7,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
+	"github.com/ryt-io/ryt-v2/database/versiondb"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/network/p2p"
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/ryt-io/subnet-evm/core"

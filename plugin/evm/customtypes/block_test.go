@@ -33,12 +33,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/vms/evm/acp226"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/math"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/rlp"
+	"github.com/ryt-io/ryt-v2/vms/evm/acp226"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/rlp"
 
 	"github.com/ryt-io/subnet-evm/internal/blocktest"
 	"github.com/ryt-io/subnet-evm/params"

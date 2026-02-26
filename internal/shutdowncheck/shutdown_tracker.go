@@ -30,10 +30,10 @@ package shutdowncheck
 import (
 	"time"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
 )
 
 // ShutdownTracker is a service that reports previous unclean shutdowns

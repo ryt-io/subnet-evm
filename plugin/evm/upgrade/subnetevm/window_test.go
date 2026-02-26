@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ava-labs/libevm/common/math"
+	"github.com/ryt-io/libevm/common/math"
 	"github.com/stretchr/testify/require"
 )
 

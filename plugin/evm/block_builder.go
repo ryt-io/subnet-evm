@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/lock"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/snow"
+	"github.com/ryt-io/ryt-v2/utils/lock"
+	"github.com/ryt-io/ryt-v2/utils/timer/mockable"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/log"
 	"github.com/holiman/uint256"
 	"go.uber.org/zap"
 
@@ -21,7 +21,7 @@ import (
 	"github.com/ryt-io/subnet-evm/core/txpool"
 	"github.com/ryt-io/subnet-evm/plugin/evm/customtypes"
 
-	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
+	commonEng "github.com/ryt-io/ryt-v2/snow/engine/common"
 )
 
 const (

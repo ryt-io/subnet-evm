@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"go.uber.org/mock/gomock"
 
 	"github.com/ryt-io/subnet-evm/commontype"

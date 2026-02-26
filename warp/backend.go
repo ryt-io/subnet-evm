@@ -8,17 +8,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/cache/lru"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p/acp118"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/vms/evm/uptimetracker"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/cache"
+	"github.com/ryt-io/ryt-v2/cache/lru"
+	"github.com/ryt-io/ryt-v2/database"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/network/p2p/acp118"
+	"github.com/ryt-io/ryt-v2/snow/consensus/snowman"
+	"github.com/ryt-io/ryt-v2/vms/evm/uptimetracker"
+	"github.com/ryt-io/ryt-v2/vms/platformvm/warp/payload"
+	"github.com/ryt-io/libevm/log"
 
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	avalancheWarp "github.com/ryt-io/ryt-v2/vms/platformvm/warp"
 )
 
 var (

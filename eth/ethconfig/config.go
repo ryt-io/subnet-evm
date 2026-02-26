@@ -30,7 +30,7 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"github.com/ryt-io/subnet-evm/core"
 	"github.com/ryt-io/subnet-evm/core/txpool/blobpool"
 	"github.com/ryt-io/subnet-evm/core/txpool/legacypool"

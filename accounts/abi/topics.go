@@ -34,9 +34,9 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/math"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 // packTopic packs rule into the corresponding hash value for a log's topic

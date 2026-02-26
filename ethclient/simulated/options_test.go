@@ -33,9 +33,9 @@ import (
 	"strings"
 	"testing"
 
-	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/core/types"
-	ethparams "github.com/ava-labs/libevm/params"
+	ethereum "github.com/ryt-io/libevm"
+	"github.com/ryt-io/libevm/core/types"
+	ethparams "github.com/ryt-io/libevm/params"
 	"github.com/ryt-io/subnet-evm/core"
 )
 

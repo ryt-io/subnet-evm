@@ -6,9 +6,9 @@ package extras
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/upgrade"
-	"github.com/ava-labs/avalanchego/upgrade/upgradetest"
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/ryt-io/ryt-v2/upgrade"
+	"github.com/ryt-io/ryt-v2/upgrade/upgradetest"
+	"github.com/ryt-io/ryt-v2/utils/constants"
 	"github.com/stretchr/testify/require"
 
 	"github.com/ryt-io/subnet-evm/utils"

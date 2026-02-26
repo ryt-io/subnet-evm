@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/utils"
+	"github.com/ryt-io/libevm/common"
 	"github.com/stretchr/testify/require"
 )
 

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/upgrade"
+	"github.com/ryt-io/ryt-v2/upgrade"
 
 	"github.com/ryt-io/subnet-evm/params/extras"
 	"github.com/ryt-io/subnet-evm/utils"

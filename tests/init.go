@@ -34,7 +34,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ava-labs/libevm/libevm"
+	"github.com/ryt-io/libevm/libevm"
 	"github.com/ryt-io/subnet-evm/params"
 	"github.com/ryt-io/subnet-evm/params/extras"
 	"github.com/ryt-io/subnet-evm/utils"

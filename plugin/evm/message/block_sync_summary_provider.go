@@ -4,8 +4,8 @@
 package message
 
 import (
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/ryt-v2/snow/engine/snowman/block"
+	"github.com/ryt-io/libevm/core/types"
 )
 
 type BlockSyncSummaryProvider struct{}

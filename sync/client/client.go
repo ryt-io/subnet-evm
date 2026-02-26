@@ -11,22 +11,22 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
-	"github.com/ava-labs/libevm/ethdb"
-	"github.com/ava-labs/libevm/log"
-	"github.com/ava-labs/libevm/trie"
+	"github.com/ryt-io/ryt-v2/codec"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/version"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
+	"github.com/ryt-io/libevm/ethdb"
+	"github.com/ryt-io/libevm/log"
+	"github.com/ryt-io/libevm/trie"
 
 	"github.com/ryt-io/subnet-evm/network"
 	"github.com/ryt-io/subnet-evm/plugin/evm/message"
 	"github.com/ryt-io/subnet-evm/sync/client/stats"
 
-	ethparams "github.com/ava-labs/libevm/params"
+	ethparams "github.com/ryt-io/libevm/params"
 )
 
 const (

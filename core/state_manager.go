@@ -30,9 +30,9 @@ package core
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/ethdb"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/ethdb"
 	"github.com/ryt-io/subnet-evm/plugin/evm/customrawdb"
 )
 

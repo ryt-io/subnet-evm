@@ -29,10 +29,10 @@
 package miner
 
 import (
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/event"
+	"github.com/ryt-io/ryt-v2/utils/timer/mockable"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/event"
 	"github.com/ryt-io/subnet-evm/consensus"
 	"github.com/ryt-io/subnet-evm/core"
 	"github.com/ryt-io/subnet-evm/core/txpool"

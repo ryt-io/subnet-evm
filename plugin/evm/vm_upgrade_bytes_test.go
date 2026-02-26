@@ -10,16 +10,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/api/metrics"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/upgrade"
-	"github.com/ava-labs/avalanchego/upgrade/upgradetest"
-	"github.com/ava-labs/avalanchego/vms/components/chain"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/common/math"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/ryt-v2/api/metrics"
+	"github.com/ryt-io/ryt-v2/snow"
+	"github.com/ryt-io/ryt-v2/upgrade"
+	"github.com/ryt-io/ryt-v2/upgrade/upgradetest"
+	"github.com/ryt-io/ryt-v2/vms/components/chain"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/common/math"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
@@ -31,7 +31,7 @@ import (
 	"github.com/ryt-io/subnet-evm/precompile/contracts/txallowlist"
 	"github.com/ryt-io/subnet-evm/utils"
 
-	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
+	commonEng "github.com/ryt-io/ryt-v2/snow/engine/common"
 )
 
 func TestVMUpgradeBytesPrecompile(t *testing.T) {

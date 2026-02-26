@@ -8,17 +8,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/enginetest"
-	"github.com/ava-labs/avalanchego/snow/validators/validatorstest"
-	"github.com/ava-labs/avalanchego/upgrade/upgradetest"
-	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/avalanchego/vms/evm/uptimetracker"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/snow"
+	"github.com/ryt-io/ryt-v2/snow/engine/enginetest"
+	"github.com/ryt-io/ryt-v2/snow/validators/validatorstest"
+	"github.com/ryt-io/ryt-v2/upgrade/upgradetest"
+	"github.com/ryt-io/ryt-v2/version"
+	"github.com/ryt-io/ryt-v2/vms/evm/uptimetracker"
 	"github.com/stretchr/testify/require"
 
-	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
-	avagovalidators "github.com/ava-labs/avalanchego/snow/validators"
+	commonEng "github.com/ryt-io/ryt-v2/snow/engine/common"
+	avagovalidators "github.com/ryt-io/ryt-v2/snow/validators"
 )
 
 func TestUptimeTracker(t *testing.T) {

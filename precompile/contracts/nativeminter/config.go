@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/math"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/math"
 
 	"github.com/ryt-io/subnet-evm/precompile/allowlist"
 	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"

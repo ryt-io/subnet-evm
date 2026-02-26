@@ -4,7 +4,7 @@
 package evm
 
 import (
-	"github.com/ava-labs/libevm/libevm"
+	"github.com/ryt-io/libevm/libevm"
 
 	"github.com/ryt-io/subnet-evm/core"
 	"github.com/ryt-io/subnet-evm/params"

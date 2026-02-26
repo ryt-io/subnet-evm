@@ -9,16 +9,16 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/log"
 
 	"github.com/ryt-io/subnet-evm/cmd/simulator/key"
 	"github.com/ryt-io/subnet-evm/cmd/simulator/metrics"
 	"github.com/ryt-io/subnet-evm/cmd/simulator/txs"
 	"github.com/ryt-io/subnet-evm/ethclient"
 
-	ethparams "github.com/ava-labs/libevm/params"
+	ethparams "github.com/ryt-io/libevm/params"
 )
 
 // DistributeFunds ensures that each address in keys has at least [minFundsPerAddr] by sending funds

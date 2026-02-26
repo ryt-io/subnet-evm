@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/network/p2p/gossip"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/rawdb"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/core/vm"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/ryt-v2/network/p2p/gossip"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/rawdb"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/core/vm"
+	"github.com/ryt-io/libevm/crypto"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 

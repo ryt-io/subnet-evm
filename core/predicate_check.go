@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/evm/predicate"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/log"
+	"github.com/ryt-io/ryt-v2/utils/set"
+	"github.com/ryt-io/ryt-v2/vms/evm/predicate"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/log"
 
 	"github.com/ryt-io/subnet-evm/params"
 	"github.com/ryt-io/subnet-evm/precompile/precompileconfig"

@@ -8,15 +8,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/upgrade"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/snow"
+	"github.com/ryt-io/ryt-v2/upgrade"
+	"github.com/ryt-io/ryt-v2/utils/constants"
+	"github.com/ryt-io/libevm/common"
 
 	"github.com/ryt-io/subnet-evm/commontype"
 	"github.com/ryt-io/subnet-evm/utils"
 
-	ethparams "github.com/ava-labs/libevm/params"
+	ethparams "github.com/ryt-io/libevm/params"
 )
 
 var (
